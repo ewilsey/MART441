@@ -2,4 +2,4 @@
 Web Tech
 Homework Repository
 Base URL for site:
-https://github.io/ewilsey/MART441
+https://ewilsey.github.io/MART441
