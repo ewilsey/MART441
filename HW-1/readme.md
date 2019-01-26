@@ -12,4 +12,4 @@ good enough for now. Below is a link to the live site.
 
 
 #Live Site:
-https://ewilsey.github.io/MART441/HW-1/
+[HW-1](https://ewilsey.github.io/MART441/HW-1/)
