@@ -1,7 +1,7 @@
 /*
   Author: Eric Wilsey
   Date: Jan 26, 2019
-  Purpose: The Console Logs
+  Purpose of this script: Familiarizing Self w/ Console Logs
 */
 
 console.log("Hello World");
