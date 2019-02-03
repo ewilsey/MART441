@@ -10,10 +10,10 @@ body, html {
   height: 50%;
 
   /* Position and center the image to scale nicely on all screens */
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: bottom;
 }
 
 /* Place text in the middle of the image */

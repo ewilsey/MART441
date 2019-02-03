@@ -17,7 +17,8 @@ to show up because I forgot to keep the entirety of the style.css file that I im
 from HW-1 and thus forgot to add the first three lines of code which included the
 body and html. Then after I got it to work, that's when I lost my document.write
 because I imagine that it's hidden by this background image. Resizing the body/html
-portion to 50% from 100% didn't work either. 
+in style.css to 50% from 100% didn't work. Moving the background position to the
+bottom didn't work. 
 
 
 
