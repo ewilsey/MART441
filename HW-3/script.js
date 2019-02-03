@@ -5,7 +5,7 @@
 */
 
 var favoriteRestaurant = "Good Burger\nRestaurant";
-var favotireNumber = 12;
+var favotireNumber = 12%3;
 var otherVariable = null;
 var isAlive = true;
 favoriteRestaurant = "Real Hooman Cuisine\nRestaurant";
