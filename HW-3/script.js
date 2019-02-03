@@ -9,8 +9,9 @@ var favotireNumber = 22;
 var otherVariable = null;
 var isAlive = true;
 var secondNumber = 13;
+var myName = "Eric";
 
-console.log(favoriteRestaurant);
+console.log(myName + " 's favorite restaurant is " + favoriteRestaurant);
 console.log(favotireNumber % secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
