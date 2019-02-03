@@ -4,7 +4,7 @@
   Purpose of this script: Values - Data types.
 */
 
-var favoriteRestaurant = "Good Burger/nRestaurant";
+var favoriteRestaurant = "Good Burger\nRestaurant";
 var favotireNumber = 12;
 var otherVariable;
 
