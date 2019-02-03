@@ -11,6 +11,6 @@ var isAlive = true;
 var secondNumber = 13;
 
 console.log(favoriteRestaurant);
-console.log(favotireNumber - secondNumber);
+console.log(favotireNumber / secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
