@@ -18,3 +18,8 @@ console.log(isAlive);
 console.log(favoriteNumber + secondNumber + myName);
 console.log(typeof(favoriteRestaurant));
 console.log(typeof(favoriteNumber));
+
+function test(){
+  console.log(favoriteNumber);
+  
+}
