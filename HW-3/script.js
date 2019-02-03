@@ -11,7 +11,7 @@ var isAlive = true;
 var secondNumber = 13;
 var myName = "Eric";
 
-console.log(myName + "'s favorite restaurant is " + favoriteRestaurant);
+console.log(myName + "'s favorite restaurant is " + favoriteRestaurant); //string + stringL + string
 console.log(favotireNumber % secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
