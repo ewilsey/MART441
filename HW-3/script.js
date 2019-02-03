@@ -11,6 +11,6 @@ var isAlive = true;
 var secondNumber = "Real Hooman Cuisine\nRestaurant";
 
 console.log(favoriteRestaurant);
-console.log(favotireNumber);
+console.log(favotireNumber + secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
