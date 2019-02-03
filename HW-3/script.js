@@ -16,6 +16,7 @@ console.log(favoriteNumber % secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
 console.log(favoriteNumber + secondNumber + myName);
+console.log(myName + favoriteNumber + secondNumber);
 console.log(typeof(favoriteRestaurant));
 console.log(typeof(favoriteNumber));
 
