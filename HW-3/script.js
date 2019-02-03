@@ -7,7 +7,7 @@
 var favoriteRestaurant = "Good Burger\nRestaurant";
 var favotireNumber = 22;
 var otherVariable = null;
-var isAlive = true;
+var isAlive = true; //boolean
 var secondNumber = 13;
 var myName = "Eric";
 
@@ -15,3 +15,4 @@ console.log(myName + "'s favorite restaurant is " + favoriteRestaurant); //strin
 console.log(favotireNumber % secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
+console.log(favotireNumber + secondNumber + myName);
