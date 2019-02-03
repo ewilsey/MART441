@@ -24,6 +24,7 @@ function test(){
   let favoriteNumber =8; //local variable
   // favoriteNumber =9; //global variable
   console.log(favoriteNumber);
+  var name = window.prompt("What is YOUR name?");
 
 }
 
