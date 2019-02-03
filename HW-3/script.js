@@ -1,6 +1,6 @@
 function doSomething()
 {
-    window.alert("Welcome to Armageddon!");
+    window.alert("<h3>Welcome to Armageddon!</h3>");
 }
 
 doSomething();
