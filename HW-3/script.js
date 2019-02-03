@@ -20,6 +20,7 @@ console.log(typeof(favoriteRestaurant));
 console.log(typeof(favoriteNumber));
 
 function test(){
+  let favoriteNumber =8;
   console.log(favoriteNumber);
 
 }
