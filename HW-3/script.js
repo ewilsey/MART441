@@ -6,7 +6,7 @@
 
 var favoriteRestaurant = "Good Burger\nRestaurant";
 var favotireNumber = 12;
-var otherVariable;
+var otherVariable = null;
 var isAlive = true;
 
 console.log(favoriteRestaurant);
