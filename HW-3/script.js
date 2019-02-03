@@ -25,7 +25,7 @@ function test(){
   // favoriteNumber =9; //global variable
   console.log(favoriteNumber);
   var name = window.prompt("What is YOUR name?");
-  console.log("Nice to meet you" + name);
+  console.log("Nice to meet you " + name);
 
 }
 
