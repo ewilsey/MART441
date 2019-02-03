@@ -4,7 +4,7 @@
   Purpose of this script: Values - Data types.
 */
 
-var favoriteRestaurant = "Good Burger\nRestaurant";
+var favoriteRestaurant = "Good Burger\tRestaurant";
 var favotireNumber = 22;
 var otherVariable = null;
 var isAlive = true; //boolean
@@ -16,3 +16,4 @@ console.log(favotireNumber % secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
 console.log(favotireNumber + secondNumber + myName);
+console.log(typeof(favoriteRestaurant));
