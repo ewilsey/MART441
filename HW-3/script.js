@@ -21,5 +21,7 @@ console.log(typeof(favoriteNumber));
 
 function test(){
   console.log(favoriteNumber);
-  
+
 }
+
+test();
