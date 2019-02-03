@@ -8,6 +8,6 @@ var favoriteRestaurant = "Good Burger";
 var favotireNumber = 12;
 var otherVariable;
 
-console.write(favoriteRestaurant);
-console.write(favotireNumber);
-console.write(otherVariable);
+console.log(favoriteRestaurant);
+console.log(favotireNumber);
+console.log(otherVariable);
