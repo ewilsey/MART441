@@ -5,10 +5,10 @@
 */
 
 var favoriteRestaurant = "Good Burger\nRestaurant";
-var favotireNumber = 12%3;
+var favotireNumber = 22;
 var otherVariable = null;
 var isAlive = true;
-var secondNumber = "Real Hooman Cuisine\nRestaurant";
+var secondNumber = 13;
 
 console.log(favoriteRestaurant);
 console.log(favotireNumber + secondNumber);
