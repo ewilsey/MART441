@@ -10,8 +10,8 @@ instead. The full path needs to include the ValueDataType.html tag in order
 
 #Homework assignment issues and how I managed them:
  I could not add an image as the background because it covers the DOM.
- Attempting to use the hero-image format doesn't work either because the image is
-not showing up even though I replicated the link, style.css and div from HW-1.
+ Attempting to use the hero-image format from HW-1 does the same, but looks better in
+ comparison to using a fullscreen background. Will try adjusting placement.
 
 
 
