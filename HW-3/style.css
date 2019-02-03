@@ -13,7 +13,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: bottom;
+  position: relative;
 }
 
 /* Place text in the middle of the image */
