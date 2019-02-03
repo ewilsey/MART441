@@ -8,12 +8,12 @@ instead. The full path needs to include the ValueDataType.html tag in order
  misspell words in the heat of the moment, but makes more to fix in the long run
  if I used the variable more than once. Also, case matters.
 
-#homework assignment and how
- I play a lot of adventure games. So I think I'll make
- something workable; at least the story will be cool.
- Could not add a background image as it covered the document.write.
- Attempting to use hero-image format from hw-1, the image is not showing up
- even though I replicated the style.css and divs. 
+#Homework assignment issues and how I managed them:
+ I could not add an image as the background because it covers the DOM.
+ Attempting to use the hero-image format doesn't work either because the image is
+not showing up even though I replicated the link, style.css and div from HW-1.
+
+
 
 #Live Site:
 [HW-3](https://ewilsey.github.io/MART441/HW-3/)
