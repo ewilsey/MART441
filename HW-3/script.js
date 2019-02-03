@@ -1,7 +1,7 @@
 function doSomething()
 {
     window.alert("Welcome to Armageddon!");
-    document.write("<h3>Fuck yeah.</h3>");
+    document.write("<h3>Never frenchfry when it's time to pizza.</h3>");
 }
 
 doSomething();
