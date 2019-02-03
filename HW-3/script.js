@@ -7,26 +7,24 @@
 var favoriteRestaurant = "Good Burger\tRestaurant";
 var favoriteNumber = 22;
 var otherVariable = null;
-var isAlive = true; //boolean
+var isAlive = true;
 var secondNumber = 13;
 const myName = "Eric";
 
-console.log(myName + "'s favorite restaurant is " + favoriteRestaurant); //string + stringLit + string
+console.log(myName + "'s favorite restaurant is " + favoriteRestaurant);
 console.log(favoriteNumber % secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
 console.log(favoriteNumber + secondNumber + myName);
-console.log(myName + favoriteNumber + secondNumber); //secrets
+console.log(myName + favoriteNumber + secondNumber);
 console.log(typeof(favoriteRestaurant));
 console.log(typeof(favoriteNumber));
 
 function test(){
-  let favoriteNumber =8; //local variable
-  // favoriteNumber =9; //global variable
+  let favoriteNumber =8;
   console.log(favoriteNumber);
   var name = window.prompt("What is YOUR name?");
   console.log("Nice to meet you " + name);
-
 }
 
 test();
