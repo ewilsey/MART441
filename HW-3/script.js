@@ -5,15 +5,16 @@
 */
 
 var favoriteRestaurant = "Good Burger\tRestaurant";
-var favotireNumber = 22;
+var favoriteNumber = 22;
 var otherVariable = null;
 var isAlive = true; //boolean
 var secondNumber = 13;
 var myName = "Eric";
 
 console.log(myName + "'s favorite restaurant is " + favoriteRestaurant); //string + stringLit + string
-console.log(favotireNumber % secondNumber);
+console.log(favoriteNumber % secondNumber);
 console.log(otherVariable);
 console.log(isAlive);
-console.log(favotireNumber + secondNumber + myName);
+console.log(favoriteNumber + secondNumber + myName);
 console.log(typeof(favoriteRestaurant));
+console.log(typeof(favoriteNumber));
