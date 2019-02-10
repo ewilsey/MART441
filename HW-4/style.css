@@ -24,6 +24,7 @@ main{
   border-style: groove;
   margin: auto;
   padding: 20px;
+  float: left;
 }
 
 .container{
@@ -34,7 +35,7 @@ main{
 }
 
 aside{
-
+  float: right;
 }
 
 footer{
