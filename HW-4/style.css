@@ -9,7 +9,8 @@ h1{
   line-height: normal;
   border: 2px solid #FFFACD;
   border-style: groove;
-  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
 }
 
 p{
@@ -20,5 +21,13 @@ p{
   line-height: 150%;
   border: 2px solid #FFFACD;
   border-style: groove;
-  border-radius: 20px;
+  margin: auto;
+  padding: 20px;
+}
+
+.container{
+  border: 2px solid #FFFACD;
+  border-style: groove;
+  margin: auto;
+  padding: 20px;
 }
