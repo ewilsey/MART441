@@ -54,6 +54,12 @@ special{
   font-size: 25px;
   line-height: 150%;
 }
+strong{
+  color: red;
+}
+b{
+  color: lime;
+}
 footer{
   background-color: rgba(0, 205, 155, 0.8);
   color: cornsilk;
