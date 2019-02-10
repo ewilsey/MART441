@@ -20,7 +20,7 @@ p{
   font-size: 25px;
   line-height: 150%;
   border: 2px solid #FFFACD;
-  border-style: double, groove;
+  border-style: groove;
   margin: auto;
   padding: 20px;
 }
