@@ -1,15 +1,19 @@
 body{
   background-color: rgba(0, 165, 255, 0.88);
-  color: cornsilk;
-  font-family: serif;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 125%;
   text-align:center;
 }
+
 h1{
   font-family:fantasy;
   border: 2px solid #FFFACD;
   border-radius: 20px;
   line-height: normal;
+}
+
+p{
+  color: cornsilk;
+  font-family: serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 125%;
 }
