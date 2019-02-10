@@ -35,12 +35,11 @@ main{
   border-style: groove;
   margin: auto;
   padding: 8px;
-  height:488px;
-  width: 435.5px;
+  float: right;
 }
 aside{
 
-  float: right;
+
 }
 .container2{
   background-color: rgba(0, 195, 235, 0.8);
