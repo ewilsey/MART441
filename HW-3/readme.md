@@ -1,5 +1,5 @@
 ##HW-3 Overview
-#Along-side the video tutorials.
+#Alongside the video tutorials.
  I checked my accuracy via pushing the tutorial portion to
 to GitHub and then viewing the live site. I noticed that because we are using an
 html file without the index prefix that the live site goes to the readme.md page
