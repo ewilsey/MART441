@@ -13,8 +13,8 @@ header{
   padding: 20px;
 }
 .content{
-  width: 75%;
-  float: left;
+  width: 768px;
+  display: flex;
 }
 main{
   background-color: rgba(0, 165, 255, 0.8);
@@ -27,19 +27,19 @@ main{
   border-style: groove;
   margin: auto;
   padding: 8px;
-
+  float: left;
 }
 .container{
-width: 25%;
-  float: right;
-
-}
-aside{
-  background-image: url("imgs/One.png");
   border: 2px solid #FFFACD;
   border-style: groove;
   margin: auto;
   padding: 8px;
+  height:488px;
+  width: 435.5px;
+}
+aside{
+
+  float: right;
 }
 .container2{
   background-color: rgba(0, 195, 235, 0.8);
