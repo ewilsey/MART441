@@ -2,6 +2,7 @@ body{
   text-align:center;
 }
 header{
+  background-color: rgba(0, 115, 205, 0.8);
   color: cornsilk;
   font-family:fantasy;
   font-size: xx-large;
