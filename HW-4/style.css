@@ -11,4 +11,5 @@ h1{
   font-family:fantasy;
   border: 2px solid #FFFACD;
   border-radius: 20px;
+  line-height: normal;
 }
