@@ -3,9 +3,10 @@ body{
   text-align:center;
 }
 
-.header{
+header{
   color: cornsilk;
   font-family:fantasy;
+  font-size: x-large;
   line-height: normal;
   border: 2px solid #FFFACD;
   border-style: groove;
@@ -13,7 +14,7 @@ body{
   padding: 20px;
 }
 
-.main{
+main{
   color: cornsilk;
   font-family: serif;
   font-style: normal;
@@ -32,6 +33,10 @@ body{
   padding: 20px;
 }
 
-.aside{
+aside{
+
+}
+
+footer{
 
 }
