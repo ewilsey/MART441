@@ -36,6 +36,8 @@ main{
   padding: 8px;
 }
 aside{
+  height:488px;
+  width: 435.5px;
   float: right;
 }
 .container2{
