@@ -38,6 +38,7 @@ main{
   width: 435.5px;
 }
 aside{
+
   float: right;
 }
 .container2{
@@ -47,6 +48,7 @@ aside{
   padding: 8px;
 }
 special{
+  background-color: rgba(0, 195, 235, 0.8);
   color: cornsilk;
   font-family: serif;
   font-style: normal;
@@ -54,6 +56,7 @@ special{
   line-height: 150%;
 }
 footer{
+  background-color: rgba(0, 205, 155, 0.8);
   color: cornsilk;
   font-family:fantasy;
   font-size: medium;
