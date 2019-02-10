@@ -15,6 +15,7 @@ header{
 .content{
   width: 768px;
   display: flex;
+  float: left;
 }
 main{
   background-color: rgba(0, 165, 255, 0.8);
@@ -25,19 +26,20 @@ main{
   line-height: 150%;
   border: 2px solid #FFFACD;
   border-style: groove;
-  margin: left;
-  padding: 8px;
-  float: left;
-}
-.container{
-  border: 2px solid #FFFACD;
-  border-style: groove;
   margin: auto;
   padding: 8px;
+
+}
+.container{
+  display: flex;
   float: right;
 }
 aside{
   background-image: url("imgs/One.png");
+  border: 2px solid #FFFACD;
+  border-style: groove;
+  margin: auto;
+  padding: 8px;
 }
 .container2{
   background-color: rgba(0, 195, 235, 0.8);
