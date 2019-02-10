@@ -14,7 +14,6 @@ header,footer{
 }
 .content{
   width: 768px;
-  height: 397px;
   display: flex;
 }
 main{
