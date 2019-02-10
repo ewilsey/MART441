@@ -30,6 +30,7 @@ main{
   float: left;
 }
 .container{
+  background-image: url("imgs/One.png");
   border: 2px solid #FFFACD;
   border-style: groove;
   margin: auto;
