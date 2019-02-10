@@ -19,5 +19,6 @@ p{
   font-size: 20px;
   line-height: 125%;
   border: 2px solid #FFFACD;
+  border-style: groove;
   border-radius: 20px;
 }
