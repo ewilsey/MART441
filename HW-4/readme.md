@@ -1,5 +1,5 @@
-##HW-3 Overview
-#Alongside the example:
+##HW-4 Overview
+#My process:
 I created all of my folders and files first, then I linked my js and css to my
 html file.  
 
