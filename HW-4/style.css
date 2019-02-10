@@ -2,7 +2,6 @@ body{
   background-color: rgba(0, 165, 255, 0.8);
   text-align:center;
 }
-
 header{
   color: cornsilk;
   font-family:fantasy;
@@ -13,7 +12,10 @@ header{
   margin: auto;
   padding: 20px;
 }
-
+.content{
+  width: 100%;
+  display: flex;
+}
 main{
   color: cornsilk;
   font-family: serif;
@@ -26,18 +28,15 @@ main{
   padding: 8px;
   float: left;
 }
-
 .container{
   border: 2px solid #FFFACD;
   border-style: groove;
   margin: auto;
   padding: 8px;
 }
-
 aside{
   float: right;
 }
-
 footer{
 
 }
