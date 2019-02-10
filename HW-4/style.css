@@ -7,7 +7,8 @@ h1{
   color: cornsilk;
   font-family:fantasy;
   line-height: normal;
-  border: 2px, double, #FFFACD;
+  border: 2px solid #FFFACD;
+  border-style: groove;
   border-radius: 20px;
 }
 
