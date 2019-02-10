@@ -1,10 +1,7 @@
 body{
   background-color: rgba(0, 165, 255, 0.88);
   text-align:center;
-}
-.myBackgroundImage {
-  background-image: url("imgs/One.png");
-}
+
 h1{
   color: cornsilk;
   font-family:fantasy;
