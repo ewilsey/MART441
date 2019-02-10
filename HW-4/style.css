@@ -1,6 +1,9 @@
 body{
   background-color: rgba(0, 165, 255, 0.88);
   color: cornsilk;
-  font-family: fantasy;
+  font-family: serif;
   font-style: normal;
+}
+h1{
+  font-family:fantasy;
 }

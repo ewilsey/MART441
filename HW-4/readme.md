@@ -13,7 +13,8 @@ white. I removed the function and then changed the opacity of the background to
 #2
 I wanted to style the font this week to change up from the default font-family
 that I have been using thus far. I googled and looked at examples and tested
-a built in font called 'fantasy'.
+a built in font called 'fantasy'. Stylistically it works for headers but not for
+ paragraphs. 
 
 
 
