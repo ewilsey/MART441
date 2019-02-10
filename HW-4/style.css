@@ -15,7 +15,6 @@ header{
 .content{
   width: 768px;
   display: flex;
-  float: left;
 }
 main{
 
@@ -28,7 +27,7 @@ main{
   border-style: groove;
   margin: auto;
   padding: 8px;
-
+  float: left;
 }
 .container{
   border: 2px solid #FFFACD;
