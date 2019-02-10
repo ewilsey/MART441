@@ -13,9 +13,12 @@ header{
   padding: 20px;
 }
 .content{
+  width: 768px;
   display: flex;
+  float: left;
 }
 main{
+
   color: cornsilk;
   font-family: serif;
   font-style: normal;
@@ -25,7 +28,7 @@ main{
   border-style: groove;
   margin: auto;
   padding: 8px;
-  float: left;
+
 }
 .container{
   border: 2px solid #FFFACD;
