@@ -13,7 +13,7 @@ header{
   padding: 20px;
 }
 .content{
-  width: 50%;
+  width: 75%;
   float: left;
 }
 main{
@@ -30,7 +30,7 @@ main{
 
 }
 .container{
-width: 50%;
+width: 25%;
   float: right;
 
 }
