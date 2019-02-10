@@ -12,10 +12,10 @@ I settled for a change in background color opacity. %88 allows for the lighter
 text to pop from the darker background color.
 
 #2 Style-font:
-I found a built in font called 'fantasy'. Stylistically it works for headers but
-not for paragraphs. So I went with 'serif' for the body text. I centered the
-body, increased font-size, and created a border around h1 with matching color.
-Line-height was also adjusted.
+I found a built-in font called 'fantasy'. Stylistically it works for headers but
+not for paragraphs. I went with 'serif' for the body text. Changes to body
+included increased font-size, borders, boroder style, and color matching. Line-
+height was also adjusted. 
 
 #3 Script:
 
