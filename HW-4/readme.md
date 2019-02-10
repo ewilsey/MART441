@@ -1,7 +1,8 @@
 ##HW-4 Overview
 #My process:
 I created all of my folders and files first, then I linked my script.js and
-style.css to my index.html file.  
+style.css to my index.html file.  Index was created, organized and attacked
+first, then style, and then script.
 
 #Issues:
 
@@ -18,7 +19,7 @@ font-family or two. I adjusted everything I could find without breaking the code
 The hardest part of this and the last assignment was getting the image to function
 in the way I desired. I got something to almost work but I wanted to rearrange
 my structure and broke it. I reverted back several steps to where it was close,
-and from there it was a quick fix to get what I wanted. 
+and from there it was a quick fix to get what I wanted.
 
 #3 Script:
 
