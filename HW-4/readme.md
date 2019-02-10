@@ -11,12 +11,13 @@ white. I removed the function and then changed the opacity of the background to
 %88 allowing for the lighter text to pop from the much darker background color.
 
 #2
-I wanted to style the font this week to change up from the default font-family
-that I have been using thus far. I googled and looked at examples and tested
+I wanted to style the font and so I googled and looked at examples and tested
 a built in font called 'fantasy'. Stylistically it works for headers but not for
- paragraphs. 
+ paragraphs. So I went with 'serif' for the body text.
 
-
+#3
+I watched the example tutorial once all the way through before attempting to
+work alongside it. 
 
 
 
