@@ -13,6 +13,7 @@ text to pop from the darker background color.
 I found a built in font called 'fantasy'. Stylistically it works for headers but
 not for paragraphs. So I went with 'serif' for the body text. I centered the
 body, increased font-size, and created a border around h1 with matching color.
+Line-height did not feel quite right; adjusting it became a task. 
 
 #3 Script
 
