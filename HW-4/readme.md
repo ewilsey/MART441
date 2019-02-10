@@ -5,17 +5,20 @@ style.css to my index.html file.
 
 #Issues:
 
-#1 Style-Color:
-I wanted to have a background color with a similar gradient effect to the hero-
-image. The linear-gradient function removed the background color and text color.
-I settled for a change in background color opacity. %88 allows for the lighter
-text to pop from the darker background color.
+#1 The background:
+I originally wanted a gradient grey over a background blue to make the text pop.
+What I ended up doing is going back to my web-dev repo and studying the .css
+files so that I could relearn how to structure my code better. My new background
+is a series of box arranged so that elements that change will be cleaner and
+should attract the eye to those areas.
 
-#2 Style-font:
-I used a built-in font called 'fantasy'. Stylistically it works for headers but
-not for paragraphs. I went with 'serif' for the body text. Changes to body
-included increased font-size, borders, border-style, and color matching. Line-
-height was also adjusted.
+#2 The Style:
+I wanted the style to be memorable for this piece. I was able to find built in
+font-family or two. I adjusted everything I could find without breaking the code.
+The hardest part of this and the last assignment was getting the image to function
+in the way I desired. I got something to almost work but I wanted to rearrange
+my structure and broke it. I reverted back several steps to where it was close,
+and from there it was a quick fix to get what I wanted. 
 
 #3 Script:
 
