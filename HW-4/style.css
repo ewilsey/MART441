@@ -3,7 +3,7 @@ body{
   text-align:center;
 }
 .myBackgroundImage{
-  background-image: url(img src="imgs/One.png");
+  background-image: url("imgs/One.png");
 }
 h1{
   color: cornsilk;
