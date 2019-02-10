@@ -25,12 +25,11 @@ main{
   line-height: 150%;
   border: 2px solid #FFFACD;
   border-style: groove;
-  margin: auto;
+  margin: left;
   padding: 8px;
   float: left;
 }
 .container{
-  background-image: url("imgs/One.png");
   border: 2px solid #FFFACD;
   border-style: groove;
   margin: auto;
@@ -38,8 +37,7 @@ main{
   float: right;
 }
 aside{
-
-
+  background-image: url("imgs/One.png");
 }
 .container2{
   background-color: rgba(0, 195, 235, 0.8);
