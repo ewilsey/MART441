@@ -1,6 +1,7 @@
 body{
   background-color: rgba(0, 165, 255, 0.88);
   text-align:center;
+  background-image: url(<img src="imgs/One.png" alt="Default" height="397" width="768">);
 }
 
 h1{
