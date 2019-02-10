@@ -3,7 +3,7 @@ body{
   text-align:center;
 }
 
-h1{
+.header{
   color: cornsilk;
   font-family:fantasy;
   line-height: normal;
@@ -13,7 +13,7 @@ h1{
   padding: 20px;
 }
 
-p{
+.main{
   color: cornsilk;
   font-family: serif;
   font-style: normal;
@@ -30,4 +30,8 @@ p{
   border-style: groove;
   margin: auto;
   padding: 20px;
+}
+
+.aside{
+
 }
