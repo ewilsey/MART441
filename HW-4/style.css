@@ -28,6 +28,7 @@ main{
   margin: auto;
   padding: 8px;
   float: left;
+  text-align: left;
 }
 .container{
   border: 2px solid #FFFACD;
@@ -35,7 +36,7 @@ main{
   margin: auto;
   padding: 8px;
   height:492px;
-  width: 807.0px;
+  width: 537.0px;
 }
 aside{
   background-color: rgba(0, 240, 111, 0.8);
