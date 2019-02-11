@@ -8,34 +8,45 @@ replaced frequently throughout the process.
 #Issues and Anecdotes:
 
 #1 The background:
-I originally wanted a gradient grey over a background blue to make the text pop.
-What I ended up doing is going back to my web-dev repo and studying the .css
-files so that I could relearn how to structure my code better. My new background
-is a series of boxes arranged so that changing elements will be cleaner and
-should attract the eye to those areas. Also, I finally got a background-color to
-work behind an image.
+I had issues with the background all throughout my coding process until I
+re-discovered containers and benefits of divs thanks to older repositories and
+experimentation.
 
 #2 The Style:
-I wanted the style to be memorable for this piece. I was able to find a built in
-font-family or two. I adjusted everything I could find without breaking the code.
+I wanted the style to showcase my understanding of the project. I adjusted
+everything I could find without breaking the code(I broke the code many
+  times).
 
-The hardest part of this and the last assignment was getting the image to function
-in the way I desired as stated above. I got something to almost work but I wanted
-to rearrange my structure and broke it. I reverted back several steps to where it
-was close, and from there it was a quick fix to achieve my goal.
+The hardest part of styling this assignment was getting the picture on top of
+the background but having both as backgrounds.
+
+Another hard part was getting my containers to stay put and for their contents to
+act how I wanted them. I still haven't fixed the moving input and button.
 
 #3 Script:
 I was able to fix every issue in my script except for one: after the first button
 click the button and input area jump to the left hand side of the container. It
-functions, but I don't like that it moves.
+functions, but it's not supposed to move.
 
-I had an issue getting functions to work and peeking at Jack Lawless's script
-section of his index file in the repository helped me find where I was going
-wrong. I needed to update the variable's name for every choice to coincide with
-that choice.
+I want to credit Jack Lawless because I found his script on the repository and
+it helped me figure out why my functions weren't advancing after the second choice.
+Our naming conventions happened to be similar so discovering the problem was as
+simple as much as it was a life-saver.
 
-I misplaced a bracket at the very end of my work cycle but was able to catch it
-upon inspecting my commit history via GitHub. S 
+I must also give credit to the history function on the GitHub desktop app. At the
+very end of coding process I misplaced but was able to find a bracket that broke
+my code and rendered the buttons useless.
+
+#4 Takeaway
+If someone were to get an invalid answer, they are required to remember the
+question they were just asked; the question is not repeated for invalid
+inputs. This does not break the code but may be considered an unwanted feature.
+
+I'm still bothered by the moving input and button.
+
+I could have added changing pictures and I might still; I am dreading the possible
+bugs that may occur. Because this assignment was so complicated, there were a lot
+of bugs!
 
 #Live Site:
 [HW-4](https://ewilsey.github.io/MART441/HW-4/)
