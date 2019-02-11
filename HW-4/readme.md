@@ -24,15 +24,15 @@ to rearrange my structure and broke it. I reverted back several steps to where i
 was close, and from there it was a quick fix to achieve my goal.
 
 #3 Script:
-Got all the way through linking new questions, and then my code broke and would
-only return the 1st new prompt. Deleted all the way back to the start of my
-script and tried again. Discovered more issues in my style design as new prompts
-would completely change the look of the page layout. Was able to fix by setting
-containers to specific height and width. 
-
-
-
-
+I had a few problems in my script. One of which is that the input box and button
+move. Why? That's minor to what the assignment asked for so I had to ignore it.
+My main problem was that my naming conventions were wrong and so I could
+only progress so far in my functions. The example video changed the variable from
+myChoice to food. I kept mine myChoice on all of my functions. It wasn't until
+I saw Jack Lawless's script which was similar to mine in that he kept myChoice as
+the .value function, but where he succeeded was in adding a numerical value after.
+Example: myChoice2 which corresponded to choice2. That was my Eureka moment. I
+watched the video at least 5 times and didn't figure that out.
 
 #Live Site:
 [HW-4](https://ewilsey.github.io/MART441/HW-4/)
