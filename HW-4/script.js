@@ -22,7 +22,7 @@ function getChoice1() {
 function getChoice2() {
   var myChoice = document.getElementById('choice2').value;
   var myQuestion = document.getElementById('question');
-  if(myChoice === "Yes") {
+  if(myChoice2 === "Yes") {
 
     document.getElementById('choice').style.display="block";
     document.getElementById('btnSubmit').style.display="block";
@@ -40,7 +40,7 @@ function getChoice2() {
 function getChoice3() {
   var myChoice = document.getElementById('choice3').value;
   var myQuestion = document.getElementById('question');
-  if(myChoice === "Right") {
+  if(myChoice3 === "Right") {
 
     document.getElementById('choice').style.display="none";
     document.getElementById('btnSubmit').style.display="none";
@@ -53,7 +53,7 @@ function getChoice3() {
 
     myQuestion.innerHTML = "Really? A dark alley! Have you listened to nothing I have told you? You have surely sealed your fate. Would you like to play again?";
   }
-  else if(myChoice === "Left")  {
+  else if(myChoice3 === "Left")  {
     myQuestion.innerHTML = "Phew. You've made it to the bustop relatively no worse for the wear. From here you can go UPTOWN or DOWNTOWN. What will you choose: Uptown or Downtown?";
   }
   else {
