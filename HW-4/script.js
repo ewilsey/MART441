@@ -36,3 +36,27 @@ function getChoice2() {
     myQuestion.innerHTML = "Invalid Answer";
   }
 }
+
+function getChoice3() {
+  var myChoice = document.getElementById('choice3').value;
+  var myQuestion = document.getElementById('question');
+  if(myChoice === "Left") {
+
+    document.getElementById('choice').style.display="none";
+    document.getElementById('btnSubmit').style.display="none";
+
+    document.getElementById('choice2').style.display="none";
+    document.getElementById('btnSubmit2').style.display="none";
+
+    document.getElementById('choice3').style.display="block";
+    document.getElementById('btnSubmit3').style.display="block";
+
+    myQuestion.innerHTML = "Really? A dark alley! Have you listened to nothing I have told you? You have surely sealed your fate. Would you like to play again?";
+  }
+  else if(myChoice === "Right")  {
+    myQuestion.innerHTML = "Phew. You've made it to the bustop relatively no worse for the wear. From here you can go UPTOWN or DOWNTOWN. What will you choose?";
+  }
+  else {
+    myQuestion.innerHTML = "Invalid Answer";
+  }
+}
