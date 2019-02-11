@@ -8,6 +8,6 @@ function getChoice1() {
     myQuestion.innerHTML = "The first step forward is the fist step towards success.";
   }
   else {
-    myQuestion.innerHTML = "Ivalid Answer"
+    myQuestion.innerHTML = "Ivalid Answer";
   }
 }
