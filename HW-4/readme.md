@@ -1,4 +1,5 @@
 ##HW-4 Overview
+
 #My process:
 I created all of my folders and files first, then I linked my script.js and
 style.css to my index.html file.  Index was created, organized and attacked
@@ -37,7 +38,7 @@ I must also give credit to the history function on the GitHub desktop app. At th
 very end of coding process I misplaced but was able to find a bracket that broke
 my code and rendered the buttons useless.
 
-#4 Takeaway
+#The Takeaway:
 If someone were to get an invalid answer, they are required to remember the
 question they were just asked; the question is not repeated for invalid
 inputs. This does not break the code but may be considered an unwanted feature.
