@@ -14,7 +14,7 @@ header{
 }
 .content{
   width: 768px;
-  display: flex;
+  
 }
 main{
   background-color: rgba(0, 165, 255, 0.8);
@@ -29,6 +29,7 @@ main{
   padding: 8px;
   float: left;
   text-align: left;
+  width: 768px;
 }
 .container{
   border: 2px solid #FFFACD;
