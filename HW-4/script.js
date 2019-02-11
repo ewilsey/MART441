@@ -86,3 +86,40 @@ function getChoice3() {
     myQuestion.innerHTML = "Invalid Answer";
   }
 }
+
+function getChoice4() {
+  var myChoice4 = document.getElementById('choice').value;
+  var myQuestion = document.getElementById('question');
+  if(myChoice4 === "Uptown") {
+
+    document.getElementById('choice').style.display="none";
+    document.getElementById('btnSubmit').style.display="none";
+
+    document.getElementById('choice2').style.display="block";
+    document.getElementById('btnSubmit2').style.display="block";
+
+    myQuestion.innerHTML = "You've truly made it. At least this far, and at least for now. Would you like to play again?";
+  }
+  else if(myChoice4 === "Downtown")  {
+    myQuestion.innerHTML = "Downtown, isn't exactly perfect. Well you could stay here and that's fine. Or you can go back there, Uptown -where you should have gone last time. What will you do? The choices is yours: Here or There?";
+
+    document.getElementById('choice').style.display="none";
+    document.getElementById('btnSubmit').style.display="none";
+
+    document.getElementById('choice2').style.display="none";
+    document.getElementById('btnSubmit2').style.display="none";
+
+    document.getElementById('choice3').style.display="none";
+    document.getElementById('btnSubmit3').style.display="none";
+
+    document.getElementById('choice4').style.display="none";
+    document.getElementById('btnSubmit4').style.display="none";
+
+    document.getElementById('choice5').style.display="block";
+    document.getElementById('btnSubmit5').style.display="block";
+
+  }
+  else {
+    myQuestion.innerHTML = "Invalid Answer";
+  }
+}
