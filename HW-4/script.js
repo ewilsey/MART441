@@ -23,6 +23,13 @@ function getChoice2() {
   var myChoice = document.getElementById('choice2').value;
   var myQuestion = document.getElementById('question');
   if(myChoice === "Yes") {
+
+    document.getElementById('choice').style.display="block";
+    document.getElementById('btnSubmit').style.display="block";
+
+    document.getElementById('choice2').style.display="none";
+    document.getElementById('btnSubmit2').style.display="none";
+
     myQuestion.href ="https://ewilsey.github.io/MART441/HW-4/";
   }
   else {
