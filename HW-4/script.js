@@ -2,6 +2,13 @@ function getChoice1() {
   var myChoice = document.getElementById('choice').value;
   var myQuestion = document.getElementById('question');
   if(myChoice === "Stay") {
+
+    document.getElementById('choice').style.display="none";
+    document.getElementById('btnSubmit').style.display="none";
+
+    document.getElementById('choice2').style.display="none";
+    document.getElementById('btnSubmit2').style.display="none";
+
     myQuestion.innerHTML = "Have you listened to nothing I have told you? You have surely sealed your fate. Would you like to play again?";
   }
   else if(myChoice === "Go")  {
