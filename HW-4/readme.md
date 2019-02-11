@@ -3,7 +3,7 @@
 I created all of my folders and files first, then I linked my script.js and
 style.css to my index.html file.  Index was created, organized and attacked
 first, then style, and then script. This readme.md was created, updated, and
-replaced frequently throughout the process.
+replaced frequently throughout.
 
 #Issues and Anecdotes:
 
