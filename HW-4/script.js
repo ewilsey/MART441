@@ -18,3 +18,14 @@ function getChoice1() {
     myQuestion.innerHTML = "Invalid Answer";
   }
 }
+
+function getChoice2() {
+  var myChoice = document.getElementById('choice2').value;
+  var myQuestion = document.getElementById('question');
+  if(myChoice === "Yes") {
+    myQuestion.href ="https://ewilsey.github.io/MART441/HW-4/";
+  }
+  else {
+    myQuestion.innerHTML = "Invalid Answer";
+  }
+}
