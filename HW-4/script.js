@@ -131,6 +131,7 @@ function getChoice4() {
   else {
     myQuestion.innerHTML = "Invalid Answer";
   }
+}
 
   function getChoice5() {
     var myChoice5 = document.getElementById('choice5').value;
