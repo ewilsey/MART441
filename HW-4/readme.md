@@ -18,21 +18,24 @@ work behind an image.
 #2 The Style:
 I wanted the style to be memorable for this piece. I was able to find a built in
 font-family or two. I adjusted everything I could find without breaking the code.
+
 The hardest part of this and the last assignment was getting the image to function
 in the way I desired as stated above. I got something to almost work but I wanted
 to rearrange my structure and broke it. I reverted back several steps to where it
 was close, and from there it was a quick fix to achieve my goal.
 
 #3 Script:
-I had a few problems in my script. One of which is that the input box and button
-move. Why? That's minor to what the assignment asked for so I had to ignore it.
-My main problem was that my naming conventions were wrong and so I could
-only progress so far in my functions. The example video changed the variable from
-myChoice to food. I kept mine myChoice on all of my functions. It wasn't until
-I saw Jack Lawless's script which was similar to mine in that he kept myChoice as
-the .value function, but where he succeeded was in adding a numerical value after.
-Example: myChoice2 which corresponded to choice2. That was my Eureka moment. I
-watched the video at least 5 times and didn't figure that out.
+I was able to fix every issue in my script except for one: after the first button
+click the button and input area jump to the left hand side of the container. It
+functions, but I don't like that it moves.
+
+I had an issue getting functions to work and peeking at Jack Lawless's script
+section of his index file in the repository helped me find where I was going
+wrong. I needed to update the variable's name for every choice to coincide with
+that choice.
+
+I misplaced a bracket at the very end of my work cycle but was able to catch it
+upon inspecting my commit history via GitHub. S 
 
 #Live Site:
 [HW-4](https://ewilsey.github.io/MART441/HW-4/)
