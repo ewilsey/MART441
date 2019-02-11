@@ -20,7 +20,7 @@ function getChoice1() {
 }
 
 function getChoice2() {
-  var myChoice = document.getElementById('choice2').value;
+  var myChoice2 = document.getElementById('choice2').value;
   var myQuestion = document.getElementById('question');
   if(myChoice2 === "Yes") {
 
@@ -38,7 +38,7 @@ function getChoice2() {
 }
 
 function getChoice3() {
-  var myChoice = document.getElementById('choice3').value;
+  var myChoice3 = document.getElementById('choice3').value;
   var myQuestion = document.getElementById('question');
   if(myChoice3 === "Right") {
 
