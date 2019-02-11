@@ -15,10 +15,10 @@ function getChoice1() {
     document.getElementById('choice3').style.display="none";
     document.getElementById('buttonSubmit3').style.display="none";
 
-    gameProposal.innerHTML = "Proposal1";
+    gameProposal.innerHTML = "Have you leanred nothing from what I have just told you?";
   }
   else if (userChoice ==='Go','go') {
-    gameProposal.innerHTML = "Proposal2";
+    gameProposal.innerHTML = "The first step forward is always the first step to success!";
   }
   else {
     gameProposal.innerHTML = "Invalid Response";
