@@ -6,8 +6,11 @@ function getChoice1() {
     document.getElementById('choice').style.display="none";
     document.getElementById('buttonSubmit').style.display="none";
 
-    document.getElementById('choice2').style.display="block";
-    document.getElementById('buttonSubmit2').style.display="block";
+    document.getElementById('choice1').style.display="block";
+    document.getElementById('buttonSubmit1').style.display="block";
+
+    document.getElementById('choice2').style.display="none";
+    document.getElementById('buttonSubmit2').style.display="none";
 
     document.getElementById('choice3').style.display="none";
     document.getElementById('buttonSubmit3').style.display="none";
