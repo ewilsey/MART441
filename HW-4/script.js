@@ -13,6 +13,9 @@ function getChoice1() {
   }
   else if(myChoice === "Go")  {
     myQuestion.innerHTML = "The first step forward is the fist step towards success and your first step out of the door and into a brand new world. You see a large parking lot. Will you turn RIGHT and head down the dark alley? Or will you turn LEFT and heads towards the bustop? The choice is yours: Right or Left?";
+
+
+
   }
   else {
     myQuestion.innerHTML = "Invalid Answer";
