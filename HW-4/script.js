@@ -12,7 +12,7 @@ function getChoice1() {
     myQuestion.innerHTML = "Have you listened to nothing I have told you? You have surely sealed your fate. Would you like to play again?";
   }
   else if(myChoice === "Go")  {
-    myQuestion.innerHTML = "The first step forward is the fist step towards success and your first step out of the door and into a brand new world. You see a large parking lot. Will you turn RIGHT and head down the dark alley? Or will you turn LEFT and heads towards the bustop?";
+    myQuestion.innerHTML = "The first step forward is the fist step towards success and your first step out of the door and into a brand new world. You see a large parking lot. Will you turn RIGHT and head down the dark alley? Or will you turn LEFT and heads towards the bustop? The choice is yours: Right or Left?";
   }
   else {
     myQuestion.innerHTML = "Invalid Answer";
@@ -54,7 +54,7 @@ function getChoice3() {
     myQuestion.innerHTML = "Really? A dark alley! Have you listened to nothing I have told you? You have surely sealed your fate. Would you like to play again?";
   }
   else if(myChoice === "Left")  {
-    myQuestion.innerHTML = "Phew. You've made it to the bustop relatively no worse for the wear. From here you can go UPTOWN or DOWNTOWN. What will you choose?";
+    myQuestion.innerHTML = "Phew. You've made it to the bustop relatively no worse for the wear. From here you can go UPTOWN or DOWNTOWN. What will you choose: Uptown or Downtown?";
   }
   else {
     myQuestion.innerHTML = "Invalid Answer";
