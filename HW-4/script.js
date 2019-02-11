@@ -55,11 +55,14 @@ function getChoice3() {
     document.getElementById('choice').style.display="none";
     document.getElementById('btnSubmit').style.display="none";
 
-    document.getElementById('choice2').style.display="none";
-    document.getElementById('btnSubmit2').style.display="none";
+    document.getElementById('choice2').style.display="block";
+    document.getElementById('btnSubmit2').style.display="block";
 
-    document.getElementById('choice3').style.display="block";
-    document.getElementById('btnSubmit3').style.display="block";
+    document.getElementById('choice3').style.display="none";
+    document.getElementById('btnSubmit3').style.display="none";
+
+    document.getElementById('choice4').style.display="none";
+    document.getElementById('btnSubmit4').style.display="none";
 
     myQuestion.innerHTML = "Really? A dark alley! Have you listened to nothing I have told you? You have surely sealed your fate. Would you like to play again?";
   }
