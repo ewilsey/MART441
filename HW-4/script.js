@@ -98,6 +98,15 @@ function getChoice4() {
     document.getElementById('choice2').style.display="block";
     document.getElementById('btnSubmit2').style.display="block";
 
+    document.getElementById('choice3').style.display="none";
+    document.getElementById('btnSubmit3').style.display="none";
+
+    document.getElementById('choice4').style.display="none";
+    document.getElementById('btnSubmit4').style.display="none";
+
+    document.getElementById('choice5').style.display="none";
+    document.getElementById('btnSubmit5').style.display="none";
+
     myQuestion.innerHTML = "You've truly made it. At least this far, and at least for now. Would you like to play again?";
   }
   else if(myChoice4 === "Downtown")  {
