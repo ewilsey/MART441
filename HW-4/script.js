@@ -30,7 +30,7 @@ function getChoice2() {
     document.getElementById('choice2').style.display="none";
     document.getElementById('btnSubmit2').style.display="none";
 
-    myQuestion.href ="https://ewilsey.github.io/MART441/HW-4/";
+    myQuestion.innerHTML ="As a self-aware potato, your only mission is to survive. Simple? Many obstacles stand in your path. Many foes stand to gain noteriety from your defeat. Will you stay and become the baked potato you were once destined to become? Or will you go and rise above by transforming into something much greater? The choice is yours, but yours alone. Will you: Stay or Go?";
   }
   else {
     myQuestion.innerHTML = "Invalid Answer";
