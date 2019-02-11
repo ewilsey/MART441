@@ -31,6 +31,10 @@ main{
   text-align: left;
   width: 800px;
 }
+.question{
+  height:492px;
+  width:800px;
+}
 .container{
   border: 2px solid #FFFACD;
   border-style: groove;
