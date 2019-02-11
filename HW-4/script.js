@@ -67,6 +67,19 @@ function getChoice3() {
     myQuestion.innerHTML = "Really? A dark alley! Have you listened to nothing I have told you? You have surely sealed your fate. Would you like to play again?";
   }
   else if(myChoice3 === "Left")  {
+
+    document.getElementById('choice').style.display="none";
+    document.getElementById('btnSubmit').style.display="none";
+
+    document.getElementById('choice2').style.display="none";
+    document.getElementById('btnSubmit2').style.display="none";
+
+    document.getElementById('choice3').style.display="none";
+    document.getElementById('btnSubmit3').style.display="none";
+
+    document.getElementById('choice4').style.display="block";
+    document.getElementById('btnSubmit4').style.display="block";
+
     myQuestion.innerHTML = "Phew. You've made it to the bustop relatively no worse for the wear. From here you can go UPTOWN or DOWNTOWN. What will you choose: Uptown or Downtown?";
   }
   else {
