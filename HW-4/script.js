@@ -131,4 +131,49 @@ function getChoice4() {
   else {
     myQuestion.innerHTML = "Invalid Answer";
   }
+
+  function getChoice5() {
+    var myChoice5 = document.getElementById('choice5').value;
+    var myQuestion = document.getElementById('question');
+    if(myChoice5 === "Here") {
+
+      document.getElementById('choice').style.display="none";
+      document.getElementById('btnSubmit').style.display="none";
+
+      document.getElementById('choice2').style.display="block";
+      document.getElementById('btnSubmit2').style.display="block";
+
+      document.getElementById('choice3').style.display="none";
+      document.getElementById('btnSubmit3').style.display="none";
+
+      document.getElementById('choice4').style.display="none";
+      document.getElementById('btnSubmit4').style.display="none";
+
+      document.getElementById('choice5').style.display="none";
+      document.getElementById('btnSubmit5').style.display="none";
+
+      myQuestion.innerHTML = "It's nice to be satisfied with one's lot in life. Would you like to play again?";
+    }
+    else if(myChoice4 === "There")  {
+      myQuestion.innerHTML = "You've truly made it. At least this far, and at least for now. Would you like to play again?";
+
+      document.getElementById('choice').style.display="none";
+      document.getElementById('btnSubmit').style.display="none";
+
+      document.getElementById('choice2').style.display="block";
+      document.getElementById('btnSubmit2').style.display="block";
+
+      document.getElementById('choice3').style.display="none";
+      document.getElementById('btnSubmit3').style.display="none";
+
+      document.getElementById('choice4').style.display="none";
+      document.getElementById('btnSubmit4').style.display="none";
+
+      document.getElementById('choice5').style.display="none";
+      document.getElementById('btnSubmit5').style.display="none";
+
+    }
+    else {
+      myQuestion.innerHTML = "Invalid Answer";
+    }
 }
