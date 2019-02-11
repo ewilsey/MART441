@@ -88,7 +88,7 @@ function getChoice3() {
 }
 
 function getChoice4() {
-  var myChoice4 = document.getElementById('choice').value;
+  var myChoice4 = document.getElementById('choice4').value;
   var myQuestion = document.getElementById('question');
   if(myChoice4 === "Uptown") {
 
