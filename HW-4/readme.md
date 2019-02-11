@@ -5,14 +5,14 @@ style.css to my index.html file.  Index was created, organized and attacked
 first, then style, and then script. This readme.md was created, updated, and
 replaced frequently throughout the process.
 
-#Issues:
+#Issues and Anecdotes:
 
 #1 The background:
 I originally wanted a gradient grey over a background blue to make the text pop.
 What I ended up doing is going back to my web-dev repo and studying the .css
 files so that I could relearn how to structure my code better. My new background
-is a series of box arranged so that elements that change will be cleaner and
-should attract the eye to those areas. And I finally got a background-color to
+is a series of boxes arranged so that changing elements will be cleaner and
+should attract the eye to those areas. Also, I finally got a background-color to
 work behind an image.
 
 #2 The Style:
@@ -26,7 +26,7 @@ was close, and from there it was a quick fix to achieve my goal.
 #3 Script:
 My userChoice segment is mostly non-case sensitive. 'Go' and 'go' will return
 Proposal2, 'Stay' or 'stay' will return Proposal1. Any other answer will return:
-'Invalid Response'. 
+'Invalid Response'.
 
 
 
