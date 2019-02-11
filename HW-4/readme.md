@@ -24,10 +24,11 @@ to rearrange my structure and broke it. I reverted back several steps to where i
 was close, and from there it was a quick fix to achieve my goal.
 
 #3 Script:
-My userChoice segment is mostly non-case sensitive. 'Go' and 'go' will return
-Proposal2, 'Stay' or 'stay' will return Proposal1. Any other answer will return:
-'Invalid Response'.
-
+Got all the way through linking new questions, and then my code broke and would
+only return the 1st new prompt. Deleted all the way back to the start of my
+script and tried again. Discovered more issues in my style design as new prompts
+would completely change the look of the page layout. Was able to fix by setting
+containers to specific height and width. 
 
 
 
