@@ -16,7 +16,7 @@ should attract the eye to those areas. And I finally got a background-color to
 work behind an image.
 
 #2 The Style:
-I wanted the style to be memorable for this piece. I was able to find built in
+I wanted the style to be memorable for this piece. I was able to find a built in
 font-family or two. I adjusted everything I could find without breaking the code.
 The hardest part of this and the last assignment was getting the image to function
 in the way I desired as stated above. I got something to almost work but I wanted
@@ -24,7 +24,9 @@ to rearrange my structure and broke it. I reverted back several steps to where i
 was close, and from there it was a quick fix to achieve my goal.
 
 #3 Script:
-
+My userChoice segment is mostly non-case sensitive. 'Go' and 'go' will return
+Proposal2, 'Stay' or 'stay' will return Proposal1. Any other answer will return:
+'Invalid Response'. 
 
 
 
