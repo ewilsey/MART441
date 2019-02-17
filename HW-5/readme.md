@@ -13,7 +13,7 @@ jpg.
 
 #Issue 2 more image related issues:
 When I updated the index and script to reflect the new images, the images were
-not showing up first. I changed length to 10 and random number counter to 5, images
+not showing at first. I changed length to 10 and random number counter to 5, images
 reappeared. But now only 2 images were being called up. I changed var count from
 2 0's to 5 0's.
 
