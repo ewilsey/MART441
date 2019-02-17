@@ -1,5 +1,5 @@
 // create an array of image names that correspond to the image tags
-var imgTags = ["img1", "img2", "img3", "img4"];
+var imgTags = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8", "img9", "img10"];
 // create a variable with the blank image name
 var blankImgPath = "imgs/blank.jpg";
 // create a empty array for the actual images
