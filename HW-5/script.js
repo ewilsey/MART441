@@ -25,7 +25,7 @@ function createRandomImgArray()
     // create an array of actual images
     var actualImgPath = ["imgs/one.jpg", "imgs/two.jpg", "imgs/three.jpg", "imgs/four.jpg", "imgs/five.jpg"];
     // create another array to make sure the images only get added twice
-    var count = [0,0];
+    var count = [0,0,0,0,0];
     // create a while statement to check to see if our actual image array is full
     while(actualImgs.length < 10)
     {
@@ -33,7 +33,7 @@ function createRandomImgArray()
         var randomNumber = Math.floor(Math.random() * actualImgPath.length)
           // create an if statement that says if the total number added is less than 2, then
         // add the image to the actual image array
-        if(count[randomNumber] < 5)
+        if(count[randomNumber] < 2)
         {
             actualImgs.push(actualImgPath[randomNumber]);
             // then add one to the array that makes sure only two images can be added
