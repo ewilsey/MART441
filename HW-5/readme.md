@@ -11,7 +11,20 @@ and broke the site entirely after updating the readme. I undid my changes back t
 where I broke the code the first time and discovered a syntax error with jpeg not
 jpg.
 
-#Issue 2:
+#Issue 2 more image related issues:
+When I updated the index and script to reflect the new images, the images were
+not showing up first. I changed length to 10 and random number counter to 5, images
+reappeared. But now only 2 images were being called up. I changed var count from
+2 0's to 5 0's.
+
+#Takeaway:
+Because I followed the example and did not start from scratch, completing the
+assigned task was not difficult at all. I had only minor issues and they were
+ easy to fix. I was worried that not starting from scratch would make
+it harder to identify the issues and it kind of did, but once I studied the
+code I was able to fix it in no time. At this point I have not changed the
+style at all, all I really did was add my own images and updated the index and
+script.
 
 
 
