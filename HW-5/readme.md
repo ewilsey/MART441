@@ -17,8 +17,9 @@ and so on. When I first examined my changes, the images three-
 five were not displaying and instead of saying the image names
 as it had done on the previous issue, the image file was
 labelled undefined. I changed line 30 of my script:
-while(actualImgs.length < 10) from <4 to <10. Maybe thinking that
-was the issue.
+while image length from <4 to <10. Maybe thinking that
+was the issue. Then the page stopped loading entirely. Nothing changed except for
+changing that parameter and adding a readme and now the site stopped working.
 
 
 #Live Site:
