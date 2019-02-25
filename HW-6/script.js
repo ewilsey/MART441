@@ -121,3 +121,23 @@ function playerInfo()
     console.log(player.lastname);
     console.log(player.age);
 }
+
+function completion()
+{
+    player.numGuessed = numGuessed;
+    localStorage.setItem("playerInfo", JSON.stringify(player));
+    window.location = "stats.html";
+    console.log(player.numGuessed);
+}
+
+function playerStats()
+{
+    var playerInformation = localStorage.getItem("playerInfo");
+    player = JSON.parse(playerInformation);
+    console.log(player.firstName);
+    console.log(player.lastName);
+    console.log(player.age);
+    console.log(player.numGuessed);
+    document.getElementById("gameover").innerHTML = "Wow" + player.firstName + " " + player.lastName
+    + "! For a " + "  " + player.age + " year old, " + "  " + player.numGuesses + " " + "guesses ain't half bad!"
+}
