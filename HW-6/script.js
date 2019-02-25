@@ -2,6 +2,11 @@
 var imgTags = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8", "img9", "img10"];
 // create a variable with the blank image name
 var blankImgPath = "imgs/blank.jpg";
+
+//JSON declaration
+var player = {"firstName": "", "lastName":"", "age":"", "numGuesses":""};
+
+
 // create a empty array for the actual images
 var actualImgs = new Array();
 
