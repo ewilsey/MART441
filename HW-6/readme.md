@@ -15,12 +15,13 @@ button to trigger the stats page for when the player is ready to end the game.
 #Concerns
 
 I like the end game button, but I think completing all possible matches should
-trigger the final page too. 
+trigger the final page too.
 
 #Potential future improvements
 
 I'd like the last match of the game to trigger the final page change.
-A leaderboard page would be cool too.
+A leaderboard page that tracked the high-scores of multiple visitors
+would be cool too. 
 
 
 #Live Site:
