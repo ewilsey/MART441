@@ -88,8 +88,7 @@ function imgsDisappear(){
 }
 
 // add to the JSON from the textboxes
-function addToPlayer()
-{
+function addToPlayer(){
     var firstName = document.getElementById("txtFirstName").value;
     var lastName = document.getElementById("txtLastName").value;
     var age = document.getElementById("txtAge").value;
@@ -113,8 +112,7 @@ function addToPlayer()
 }
 
 // get the information out of JSON
-function playerInfo()
-{
+function playerInfo(){
     var playerInformation = localStorage.getItem("playerInfo");
     player = JSON.parse(playerInformation);
     console.log(player.firstname);
@@ -122,16 +120,14 @@ function playerInfo()
     console.log(player.age);
 }
 
-function completion()
-{
+function completion(){
     player.numGuessed = numGuessed;
     localStorage.setItem("playerInfo", JSON.stringify(player));
     window.location = "stats.html";
     console.log(player.numGuessed);
 }
 
-function playerStats()
-{
+function playerStats(){
     var playerInformation = localStorage.getItem("playerInfo");
     player = JSON.parse(playerInformation);
     console.log(player.firstName);
@@ -139,5 +135,5 @@ function playerStats()
     console.log(player.age);
     console.log(player.numGuessed);
     document.getElementById("gameover").innerHTML = "Wow" + player.firstName + " " + player.lastName
-    + "! For a " + "  " + player.age + " year old, " + "  " + player.numGuesses + " " + "guesses ain't half bad!"
+    + "! For a " + "  " + player.age + " year old, " + "  " + player.numGuesses + " " + "guesses ain't half bad!";
 }
