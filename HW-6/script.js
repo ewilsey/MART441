@@ -2,6 +2,8 @@
 var imgTags = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8", "img9", "img10"];
 // create a variable with the blank image name
 var blankImgPath = "imgs/blank.jpg";
+var firstNumber = -1;
+var secondNumber = -1;
 
 //JSON declaration
 var player = {"firstName": "", "lastName":"", "age":""};
@@ -54,9 +56,16 @@ function createRandomImgArray()
 
 function flipImg(number)
 {
-    document.getElementById(imgTags[number]).src= actualImgs[number];
+    firstNumber = number;
+    document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
         // this should be a quick function that just changes
         // the image based on what number was pressed
+        imgsDisappear();
+}
+
+function imgsDisappear()
+{
+    document.getElementById(imgTags[firstNumber]).src= blankImgPath;
 }
 
 // add to the JSON from the textboxes
