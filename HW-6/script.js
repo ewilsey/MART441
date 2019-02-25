@@ -57,6 +57,23 @@ function flipImg(number)
     document.getElementById(imgTags[number]).src= actualImgs[number];
         // this should be a quick function that just changes
         // the image based on what number was pressed
+}
 
+// add to the JSON from the textboxes
+function addToPlayer()
+{
+    var firstName = document.getElementById("txtFirstName").value;
+    //console.log(firstName);
+    player.firstname = firstName;
+    localStorage.setItem("playerInfo", JSON.stringify(player));
+    window.location = "HWExample.html";
+}
+
+// get the information out of JSON
+function playerInfo()
+{
+    var playerInformation = localStorage.getItem("playerInfo");
+    player = JSON.parse(playerInformation);
+    console.log(player.firstname);
 
 }
