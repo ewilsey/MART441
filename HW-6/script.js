@@ -66,13 +66,13 @@ function flipImg(number){
 
 
 
-        // this should be a quick function that just changes
-        // the image based on what number was pressed
+
 
 }
 
 function imgsDisappear(){
     document.getElementById(imgTags[firstNumber]).src= blankImgPath;
+    document.getElementById(imgTags[secondNumber]).src= blankImgPath;
 }
 
 // add to the JSON from the textboxes
