@@ -66,7 +66,7 @@ function addToPlayer()
     //console.log(firstName);
     player.firstname = firstName;
     localStorage.setItem("playerInfo", JSON.stringify(player));
-    window.location = "HWExample.html";
+    window.location = "index.html";
 }
 
 // get the information out of JSON
