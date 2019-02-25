@@ -4,7 +4,7 @@ var imgTags = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8", "
 var blankImgPath = "imgs/blank.jpg";
 
 //JSON declaration
-var player = {"firstName": "", "lastName":"", "age":"", "numGuesses":""};
+var player = {"firstName": "", "lastName":"", "age":""};
 
 
 // create a empty array for the actual images
