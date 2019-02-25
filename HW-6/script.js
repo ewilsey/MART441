@@ -57,13 +57,16 @@ function flipImg(number){
     if(firstNumber >= 0){
       secondNumber = number;
       document.getElementById(imgTags[number]).src = actualImgs[secondNumber];
-      setTimeout(imgsDisappear,1000);
+
   }
     else if (firstNumber < 0) {
       firstNumber = number;
       document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
     }
+    if(actualImgs[secondNumber] != actualImgs[firstNumber] && firstNumber >= 0 && secondNumber >= 0){
+      setTimeout(imgsDisappear,1000);
 
+    }
 
 
 
