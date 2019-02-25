@@ -134,6 +134,5 @@ function playerStats(){
     console.log(player.lastName);
     console.log(player.age);
     console.log(player.numGuessed);
-    document.getElementById("gameover").innerHTML = "Wow" + player.firstName + " " + player.lastName
-    + "! For a " + "  " + player.age + " year old, " + "  " + player.numGuessed + " " + "guesses ain't half bad!";
+    document.getElementById("gameover").innerHTML = "Wow" + player.firstName + " " + player.lastName + "! For a " + "  " + player.age + " year old, " + "  " + player.numGuessed + " " + "guesses ain't half bad!";
 }
