@@ -4,9 +4,10 @@ var imgTags = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8", "
 var blankImgPath = "imgs/blank.jpg";
 var firstNumber = -1;
 var secondNumber = -1;
+var numGuessed = 0;
 
 //JSON declaration
-var player = {"firstName": "", "lastName":"", "age":""};
+var player = {"firstName": "", "lastName":"", "age":"", "numGuessed": ""};
 
 
 // create a empty array for the actual images
@@ -66,16 +67,17 @@ function flipImg(number){
     }
     // check to see if imgs are not matching
     if(actualImgs[secondNumber] != actualImgs[firstNumber] && firstNumber >= 0 && secondNumber >= 0){
-      setTimeout(imgsDisappear,1000);
+      setTimeout(imgsDisappear,1000); // calls method after set time
+      numGuessed += 1;
+      return numGuessed;
     }
     //check to see if imgs are matching
     else if(actualImgs[secondNumber] == actualImgs[firstNumber] && firstNumber >= 0 && secondNumber >= 0){
       firstNumber = -1;
       secondNumber = -1;
+      numGuessed += 1;
+      return numGuessed;
     }
-
-
-
 }
 
 function imgsDisappear(){
