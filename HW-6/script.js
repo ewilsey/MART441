@@ -54,19 +54,21 @@ function createRandomImgArray(){
 
 function flipImg(number){
 
+  //make 2nd img appear
     if(firstNumber >= 0){
       secondNumber = number;
       document.getElementById(imgTags[number]).src = actualImgs[secondNumber];
 
   }
-    else if (firstNumber < 0) {
+    else if (firstNumber < 0) { //make 1st img appear
       firstNumber = number;
       document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
     }
+    // check to see if imgs are not matching
     if(actualImgs[secondNumber] != actualImgs[firstNumber] && firstNumber >= 0 && secondNumber >= 0){
       setTimeout(imgsDisappear,1000);
-
     }
+    //check to see if imgs are matching
     else if(actualImgs[secondNumber] == actualImgs[firstNumber] && firstNumber >= 0 && secondNumber >= 0){
       firstNumber = -1;
       secondNumber = -1;
