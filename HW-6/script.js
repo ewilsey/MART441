@@ -130,9 +130,9 @@ function completion(){
 function playerStats(){
     var playerInformation = localStorage.getItem("playerInfo");
     player = JSON.parse(playerInformation);
-    console.log(player.firstName);
-    console.log(player.lastName);
+    console.log(player.firstname);
+    console.log(player.lastname);
     console.log(player.age);
     console.log(player.numGuessed);
-    document.getElementById("gameover").innerHTML = "Wow" + player.firstName + " " + player.lastName + "! For a " + "  " + player.age + " year old, " + "  " + player.numGuessed + " " + "guesses ain't half bad!";
+    document.getElementById("gameover").innerHTML = "Wow" + player.firstname + " " + player.lastname + "! For a " + "  " + player.age + " year old, " + "  " + player.numGuessed + " " + "guesses ain't half bad!";
 }
