@@ -57,6 +57,12 @@ function createRandomImgArray()
 function flipImg(number)
 {
     firstNumber = number;
+    if(firstNumber >= 0)
+    {
+      secondNumber = number;
+      document.getElementById(imgTags[number]).src = actualImgs[secondNumber];
+    }
+
     document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
         // this should be a quick function that just changes
         // the image based on what number was pressed
