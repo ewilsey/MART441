@@ -60,7 +60,7 @@ function flipImg(number)
     document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
         // this should be a quick function that just changes
         // the image based on what number was pressed
-        imgsDisappear();
+        setTimeout(imgsDisappear,1000);
 }
 
 function imgsDisappear()
