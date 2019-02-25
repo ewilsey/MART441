@@ -16,11 +16,9 @@ adopted their technique for ending the game and forcing the final stats page.
 
 #Potential future improvements
 
-I'd like the last match of the game to trigger the page change, and I'd like to be able to
-restart back to the player information page and/or to the game page from the
-stats page. A leaderboard page would be cool too.
-
-
+I'd like the last match of the game to trigger the final page change, and I'd
+like to be able to restart back to the player information page and/or to the game
+page from the stats page. A leaderboard page would be cool too.
 
 
 #Live Site:
