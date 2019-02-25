@@ -63,8 +63,23 @@ function flipImg(number)
 function addToPlayer()
 {
     var firstName = document.getElementById("txtFirstName").value;
+    var lastName = document.getElementById("txtLastName").value;
+    var age = document.getElementById("txtAge").value;
+
+
+
     //console.log(firstName);
     player.firstname = firstName;
+    localStorage.setItem("playerInfo", JSON.stringify(player));
+    window.location = "game.html";
+
+    //console.log(lastName);
+    player.lastname = lastName;
+    localStorage.setItem("playerInfo", JSON.stringify(player));
+    window.location = "game.html";
+
+    //console.log(age);
+    player.age = age;
     localStorage.setItem("playerInfo", JSON.stringify(player));
     window.location = "game.html";
 }
