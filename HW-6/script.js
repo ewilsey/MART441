@@ -67,7 +67,10 @@ function flipImg(number){
       setTimeout(imgsDisappear,1000);
 
     }
-
+    else if(actualImgs[secondNumber] == actualImgs[firstNumber] && firstNumber >= 0 && secondNumber >= 0){
+      firstNumber = -1;
+      secondNumber = -1;
+    }
 
 
 
@@ -76,6 +79,8 @@ function flipImg(number){
 function imgsDisappear(){
     document.getElementById(imgTags[firstNumber]).src= blankImgPath;
     document.getElementById(imgTags[secondNumber]).src= blankImgPath;
+    firstNumber = -1;
+    secondNumber = -1;
 }
 
 // add to the JSON from the textboxes
