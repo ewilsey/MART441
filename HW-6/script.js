@@ -12,8 +12,7 @@ var player = {"firstName": "", "lastName":"", "age":""};
 // create a empty array for the actual images
 var actualImgs = new Array();
 
-function printBlanks()
-{
+function printBlanks(){
    // call our random image creation function
     createRandomImgArray();
     // create a for loop
@@ -27,8 +26,7 @@ function printBlanks()
 
 }
 
-function createRandomImgArray()
-{
+function createRandomImgArray(){
     // create an array of actual images
     var actualImgPath = ["imgs/one.jpg", "imgs/two.jpg", "imgs/three.jpg", "imgs/four.jpg", "imgs/five.jpg"];
     // create another array to make sure the images only get added twice
@@ -54,23 +52,25 @@ function createRandomImgArray()
 
 }
 
-function flipImg(number)
-{
-    firstNumber = number;
-    if(firstNumber >= 0)
-    {
+function flipImg(number){
+
+    if(firstNumber >= 0){
       secondNumber = number;
       document.getElementById(imgTags[number]).src = actualImgs[secondNumber];
     }
+    else if (firstNumber < 0) {
+      firstNumber = number;
+      document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
+    }
 
-    document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
+
+
         // this should be a quick function that just changes
         // the image based on what number was pressed
         setTimeout(imgsDisappear,1000);
 }
 
-function imgsDisappear()
-{
+function imgsDisappear(){
     document.getElementById(imgTags[firstNumber]).src= blankImgPath;
 }
 
