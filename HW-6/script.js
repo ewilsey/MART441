@@ -57,7 +57,8 @@ function flipImg(number){
     if(firstNumber >= 0){
       secondNumber = number;
       document.getElementById(imgTags[number]).src = actualImgs[secondNumber];
-    }
+      setTimeout(imgsDisappear,1000);
+  }
     else if (firstNumber < 0) {
       firstNumber = number;
       document.getElementById(imgTags[firstNumber]).src= actualImgs[firstNumber];
@@ -67,7 +68,7 @@ function flipImg(number){
 
         // this should be a quick function that just changes
         // the image based on what number was pressed
-        setTimeout(imgsDisappear,1000);
+
 }
 
 function imgsDisappear(){
