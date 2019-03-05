@@ -16,8 +16,9 @@ and 'title' were given separate names for a reason.
 #2 I almost broke out the pin doll.
 I spent over 2 hours trying to figure out how to get the
 images to appear. I finally realized that in my index.html
-file I was using a <div id = "image"> instead of
-<img id = "image"> to summon the image.
+file I was using a <div id = "image"> instead of an
+<img id = "image"> and therefor was failing to summon the
+images.
 
 #Live Site:
 [HW-7](https://ewilsey.github.io/MART441/HW-7/)
