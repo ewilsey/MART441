@@ -46,7 +46,7 @@ function  initializeArray() {
   var myVFinder1 = new vFinder("Cyan Square","imgs/two.jpg","Not quite sad, not quite hip.","Random Average Guy","2019");
   var myVFinder2 = new vFinder("Red Rupee","imgs/three.jpg","Worth 20 Green Rupees in Hyrule.","Biggoron","When You're Older");
   var myVFinder3 = new vFinder("Purple Pentagon","imgs/four.jpg","Barney's Intel HQ.","PBS","1992-2009");
-  var myVFinder4 = new vFinder("Green Circle","imgs/five.jpg","Don't break they cipher!","Thurgood Jenkins","1998");
+  var myVFinder4 = new vFinder("Green Circle","imgs/five.jpg","Don't break the cipher!","Thurgood Jenkins","1998");
   myVFinderArray.push(myVFinder);
   myVFinderArray.push(myVFinder1);
   myVFinderArray.push(myVFinder2);
