@@ -2,6 +2,9 @@
 
 #Work Flow
 
+I gave myself 8 hours to do this assignment and it took me
+a little over 10 hours in total.
+
 #Issues:
 
 #1

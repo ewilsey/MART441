@@ -1,4 +1,5 @@
 var myVFinderArray = new Array();
+var randArray = ["un", "deux", "trois", "quatre", "cinq"];
 class vFinder {
   constructor(image,title,description,author,year) {
     this.image = image;
@@ -55,7 +56,7 @@ function  initializeArray() {
 }
 
 function  accessInfo() {
-  var randomNumber = Math.floor(Math.random() * 5);
+  var randomNumber = Math.floor(Math.random() * randArray.length);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
   document.getElementById("image").src = myVFinderArray[randomNumber].toString();
