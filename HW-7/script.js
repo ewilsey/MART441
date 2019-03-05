@@ -9,10 +9,10 @@ class vFinder {
     this.year = year;
   }
 
-toString1() {
+toString() {
   return "Image: " + this.image;
   }
-toString() {
+toString1() {
   return "Title: " + this.title;
   }
 toString2() {
@@ -59,8 +59,8 @@ function  accessInfo() {
   var randomNumber = Math.floor(Math.random() * imgPath.length);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
-  document.getElementById("image").innerHTML = myVFinderArray[randomNumber].toString1();
-  document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("image").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString1();
   document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString2();
   document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString3();
   document.getElementById("year").innerHTML = myVFinderArray[randomNumber].toString4();
