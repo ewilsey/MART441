@@ -9,13 +9,13 @@ a little over 10 hours in total.
 
 #1
 When following the example tutorial, I used the same
-name for more than one thing and realized that theTitle
-and title were separate for a reason.  
+name for more than one thing and realized that 'theTitle'
+and 'title' were given separate names for a reason.  
 
 #2
 I spent over 2 hours trying to figure out how to get the
 images to appear. I finally realized that in my index.html
-file I was using a div id instead of an img id for the image.
+file I was using a <div id = ...> instead of an <img id = ...> for the image.
 (I almost broke out the pin doll on that one.)
 
 
