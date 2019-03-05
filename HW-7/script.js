@@ -23,7 +23,7 @@ toString3() {
 toString4() {
   return "Year: " + this.year;
     }
-    
+
 get theTitle() {
   return this.title;
   }
@@ -55,7 +55,7 @@ function  initializeArray() {
 }
 
 function  accessInfo() {
-  var randomNumber = Math.floor(Math.random() * 5);
+  var randomNumber = Math.floor(Math.random() * imgPath.length);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
   document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString();
