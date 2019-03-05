@@ -42,11 +42,11 @@ get theYear() {
 }
 
 function  initializeArray() {
-  var myVFinder = new vFinder("Title 1 Info");
-  var myVFinder1 = new vFinder("Title 2 Info");
-  var myVFinder2 = new vFinder("Title 3 Info");
-  var myVFinder3 = new vFinder("Title 4 Info");
-  var myVFinder4 = new vFinder("Title 5 Info");
+  var myVFinder = new vFinder("Yellow Triangle","imgs/one.jpg","1/3 of the Tri-Force","Link","Nov 1998");
+  var myVFinder1 = new vFinder("Cyan Square","imgs/two.jpg","Not quite sad, not quite hip.","Random Average Guy","2019");
+  var myVFinder2 = new vFinder("Red Rupee","imgs/three.jpg","Worth 20 Green Rupees in Hyrule.","Biggoron","When You're Older");
+  var myVFinder3 = new vFinder("Purple Pentagon","imgs/four.jpg","Barney's Intel HQ.","PBS","1992-2009");
+  var myVFinder4 = new vFinder("Green Circle","imgs/five.jpg","Don't break they cipher!","Thurgood Jenkins","1998");
   myVFinderArray.push(myVFinder);
   myVFinderArray.push(myVFinder1);
   myVFinderArray.push(myVFinder2);
