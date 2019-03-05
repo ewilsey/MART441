@@ -2,8 +2,8 @@ var myVFinderArray = new Array();
 var randArray = ["un", "deux", "trois", "quatre", "cinq"];
 class vFinder {
   constructor(title,image,description,author,year) {
-    this.image = image;
     this.title = title;
+    this.image = image;
     this.description = description;
     this.author = author;
     this.year = year;
