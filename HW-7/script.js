@@ -1,6 +1,6 @@
 class vFinder {
   constructor(title) {
-    this.title = title;
+    this.title=title;
   }
 toString() {
   return "Title: " + this.title;
