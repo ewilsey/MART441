@@ -1,7 +1,11 @@
 var myVFinderArray = new Array();
 class vFinder {
-  constructor(title) {
+  constructor(title,image,description,author,year) {
     this.title = title;
+    this.image = image;
+    this.description = description;
+    this.author = author;
+    this.year = year;
   }
 toString() {
   return "Title: " + this.title;
