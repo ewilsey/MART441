@@ -58,7 +58,7 @@ function  accessInfo() {
   var randomNumber = Math.floor(Math.random() * 5);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
-  document.getElementById("image").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("image").src = myVFinderArray[randomNumber].toString();
   document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString1();
   document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString2();
   document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString3();
