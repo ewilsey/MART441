@@ -10,17 +10,32 @@ class vFinder {
   }
 toString() {
   return "Title: " + this.title;
-  return "Image: " + this.image;
-  return "Description: " + this.description;
-  return "Author: " + this.author;
-  return "Year: " + this.year;
-
   }
+toString1() {
+  return "Image: " + this.image;
+  }
+toString2() {
+  return "Description: " + this.description;
+  }
+toString3() {
+  return "Author: " + this.author;
+  }
+toString4() {
+  return "Year: " + this.year;
+    }
 get theTitle() {
   return this.title;
+  }
+get theImage() {
   return this.image;
+  }
+get theDescription() {
   return this.description;
+  }
+get theAuthor() {
   return this.author;
+  }
+get theYear() {
   return this.year;
   }
 }
@@ -43,8 +58,8 @@ function  accessInfo() {
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
   document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString();
-  document.getElementById("image").innerHTML = myVFinderArray[randomNumber].toString();
-  document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString();
-  document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString();
-  document.getElementById("year").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("image").innerHTML = myVFinderArray[randomNumber].toString1();
+  document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString2();
+  document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString3();
+  document.getElementById("year").innerHTML = myVFinderArray[randomNumber].toString4();
 }
