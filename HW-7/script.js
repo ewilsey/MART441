@@ -15,6 +15,7 @@ function  initializeArray() {
   var myVFinder = new vFinder("Title 1 Info");
   var myVFinder = new vFinder("Title 2 Info");
   myVFinderArray.push(myVFinder);
+  myVFinderArray.push(myVFinder1);
 }
 
 function  accessInfo() {
