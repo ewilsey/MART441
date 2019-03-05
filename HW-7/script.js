@@ -29,8 +29,12 @@ function  initializeArray() {
 }
 
 function  accessInfo() {
-
+  var randomNumber = Math.floor(Math.random() * 5);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
-  document.getElementById("title").innerHTML = myVFinderArray[0].toString();
+  document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("image").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("year").innerHTML = myVFinderArray[randomNumber].toString();
 }
