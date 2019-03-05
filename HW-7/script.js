@@ -5,13 +5,13 @@ class vFinder {
 toString() {
   return "Title: " + this.title;
   }
-get title() {
-    return  this.title;
+get theTitle() {
+  return this.title;
   }
 }
 
 function  accessInfo() {
   var myVFinder = new vFinder("Title 1 Info");
   console.log(myVFinder.toString());
-  console.log(myVFinder.title);
+  console.log(myVFinder.theTitle);
 }
