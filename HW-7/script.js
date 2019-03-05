@@ -16,6 +16,14 @@ toString() {
   return "Year: " + this.year;
 
   }
+get theTitle() {
+  return this.title;
+  return this.image;
+  return this.description;
+  return this.author;
+  return this.year;
+  }
+}
 
 function  initializeArray() {
   var myVFinder = new vFinder("Title 1 Info");
