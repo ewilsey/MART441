@@ -1,4 +1,5 @@
 var myVFinderArray = new Array();
+var imgPath = ["imgs/one.jpg", "imgs/two.jpg", "imgs/three.jpg", "imgs/four.jpg", "imgs/five.jpg"];
 class vFinder {
   constructor(title,image,description,author,year) {
     this.title = title;
