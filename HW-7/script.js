@@ -1,3 +1,4 @@
+var myVFinderArray = new Array();
 class vFinder {
   constructor(title) {
     this.title = title;
@@ -10,9 +11,14 @@ get theTitle() {
   }
 }
 
-function  accessInfo() {
+function  initializeArray() {
   var myVFinder = new vFinder("Title 1 Info");
+  myVFinderArray.push(myVFinder);
+}
+
+function  accessInfo() {
+
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
-  document.getElementById("title").innerHTML = myVFinder.toString();
+  document.getElementById("title").innerHTML = myVFinderArray[0].toString();
 }
