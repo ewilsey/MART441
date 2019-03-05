@@ -1,5 +1,4 @@
 var myVFinderArray = new Array();
-var imgPath = ["imgs/one.jpg", "imgs/two.jpg", "imgs/three.jpg", "imgs/four.jpg", "imgs/five.jpg"];
 class vFinder {
   constructor(image,title,description,author,year) {
     this.image = image;
@@ -56,7 +55,7 @@ function  initializeArray() {
 }
 
 function  accessInfo() {
-  var randomNumber = Math.floor(Math.random() * imgPath.length);
+  var randomNumber = Math.floor(Math.random() * 5);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
   document.getElementById("image").src = myVFinderArray[randomNumber].toString();
