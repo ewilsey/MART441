@@ -10,9 +10,18 @@ class vFinder {
   }
 toString() {
   return "Title: " + this.title;
+  return "Image: " + this.image;
+  return "Description: " + this.description;
+  return "Author: " + this.author;
+  return "Year: " + this.year;
+
   }
 get theTitle() {
   return this.title;
+  return this.image;
+  return this.description;
+  return this.author;
+  return this.year;
   }
 }
 
