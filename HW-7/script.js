@@ -9,7 +9,7 @@ class vFinder {
   }
 
 toString() {
-  return "Image: " + this.image;
+  return this.image;
   }
 toString1() {
   return "Title: " + this.title;
