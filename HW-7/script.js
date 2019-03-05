@@ -1,18 +1,19 @@
 var myVFinderArray = new Array();
 var imgPath = ["imgs/one.jpg", "imgs/two.jpg", "imgs/three.jpg", "imgs/four.jpg", "imgs/five.jpg"];
 class vFinder {
-  constructor(title,image,description,author,year) {
-    this.title = title;
+  constructor(image,title,description,author,year) {
     this.image = image;
+    this.title = title;
     this.description = description;
     this.author = author;
     this.year = year;
   }
-toString() {
-  return "Title: " + this.title;
-  }
+
 toString1() {
   return "Image: " + this.image;
+  }
+toString() {
+  return "Title: " + this.title;
   }
 toString2() {
   return "Description: " + this.description;
@@ -24,11 +25,11 @@ toString4() {
   return "Year: " + this.year;
     }
 
-get theTitle() {
-  return this.title;
-  }
 get theImage() {
   return this.image;
+  }
+get theTitle() {
+  return this.title;
   }
 get theDescription() {
   return this.description;
@@ -42,11 +43,11 @@ get theYear() {
 }
 
 function  initializeArray() {
-  var myVFinder = new vFinder("Yellow Triangle","imgs/one.jpg","1/3 of the Tri-Force","Link","Nov 1998");
-  var myVFinder1 = new vFinder("Cyan Square","imgs/two.jpg","Not quite sad, not quite hip.","Random Average Guy","2019");
-  var myVFinder2 = new vFinder("Red Rupee","imgs/three.jpg","Worth 20 Green Rupees in Hyrule.","Biggoron","When You're Older");
-  var myVFinder3 = new vFinder("Purple Pentagon","imgs/four.jpg","Barney's Intel HQ.","PBS","1992-2009");
-  var myVFinder4 = new vFinder("Green Circle","imgs/five.jpg","Don't break the cipher!","Thurgood Jenkins","1998");
+  var myVFinder = new vFinder("imgs/one.jpg","Yellow Triangle","1/3 of the Tri-Force","Link","Nov 1998");
+  var myVFinder1 = new vFinder("imgs/two.jpg","Cyan Square","Not quite sad, not quite hip.","Random Average Guy","2019");
+  var myVFinder2 = new vFinder("imgs/three.jpg","Red Rupee","Worth 20 Green Rupees in Hyrule.","Biggoron","When You're Older");
+  var myVFinder3 = new vFinder("imgs/four.jpg","Purple Pentagon","Barney's Intel HQ.","PBS","1992-2009");
+  var myVFinder4 = new vFinder("imgs/five.jpg","Green Circle","Don't break the cipher!","Thurgood Jenkins","1998");
   myVFinderArray.push(myVFinder);
   myVFinderArray.push(myVFinder1);
   myVFinderArray.push(myVFinder2);
@@ -58,8 +59,8 @@ function  accessInfo() {
   var randomNumber = Math.floor(Math.random() * imgPath.length);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
+  document.getElementById("image").innerHTML = myVFinderArray[randomNumber].toString1();
   document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString();
-  document.getElementById("image").src = myVFinderArray[randomNumber].toString1();
   document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString2();
   document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString3();
   document.getElementById("year").innerHTML = myVFinderArray[randomNumber].toString4();
