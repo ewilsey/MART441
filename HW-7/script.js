@@ -43,11 +43,11 @@ get theYear() {
 }
 
 function  initializeArray() {
-  var myVFinder = new vFinder("imgs/one.jpg"+"Yellow Triangle","1/3 of the Tri-Force","Link","Nov 1998");
-  var myVFinder1 = new vFinder("imgs/two.jpg"+"Cyan Square","Not quite sad, not quite hip.","Random Average Guy","2019");
-  var myVFinder2 = new vFinder("imgs/three.jpg"+"Red Rupee","Worth 20 Green Rupees in Hyrule.","Biggoron","When You're Older");
-  var myVFinder3 = new vFinder("imgs/four.jpg"+"Purple Pentagon","Barney's Intel HQ.","PBS","1992-2009");
-  var myVFinder4 = new vFinder("imgs/five.jpg"+"Green Circle","Don't break the cipher!","Thurgood Jenkins","1998");
+  var myVFinder = new vFinder(src="imgs/one.jpg","Yellow Triangle","1/3 of the Tri-Force","Link","Nov 1998");
+  var myVFinder1 = new vFinder(src="imgs/two.jpg","Cyan Square","Not quite sad, not quite hip.","Random Average Guy","2019");
+  var myVFinder2 = new vFinder(src="imgs/three.jpg","Red Rupee","Worth 20 Green Rupees in Hyrule.","Biggoron","When You're Older");
+  var myVFinder3 = new vFinder(src="imgs/four.jpg","Purple Pentagon","Barney's Intel HQ.","PBS","1992-2009");
+  var myVFinder4 = new vFinder(src="imgs/five.jpg","Green Circle","Don't break the cipher!","Thurgood Jenkins","1998");
   myVFinderArray.push(myVFinder);
   myVFinderArray.push(myVFinder1);
   myVFinderArray.push(myVFinder2);
