@@ -12,6 +12,7 @@ get theTitle() {
 
 function  accessInfo() {
   var myVFinder = new vFinder("Title 1 Info");
-  console.log(myVFinder.toString());
-  console.log(myVFinder.theTitle);
+  //console.log(myVFinder.toString());
+  //console.log(myVFinder.theTitle);
+  document.getElementById("title").innerHTML = myVFinder.toString();
 }
