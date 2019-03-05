@@ -59,7 +59,7 @@ function  accessInfo() {
   var randomNumber = Math.floor(Math.random() * imgPath.length);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
-  document.getElementById("image").src = imgPath;
+  document.getElementById("image").src = imgPath[randomNumber], myVFinderArray[randomNumber].toString();
   document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString1();
   document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString2();
   document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString3();
