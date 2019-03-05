@@ -22,5 +22,5 @@ function  accessInfo() {
 
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
-  document.getElementById("title").innerHTML = myVFinderArray[0].toString();
+  document.getElementById("title").innerHTML = myVFinderArray[1].toString();
 }
