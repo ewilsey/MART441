@@ -1,4 +1,4 @@
-class VFO {
+class VFinder {
   constructor(title) {
     this.title = title;
   }
@@ -14,7 +14,7 @@ get title() {
 }
 
 function  accessInfo() {
-  var myVFinder = new VF("Title 1 Info");
+  var myVFinder = new VFinder("Title 1 Info");
   console.log(myVFinder.toString());
   console.log(myVFinder.title);
 
