@@ -1,19 +1,18 @@
 var myVFinderArray = new Array();
 var randArray = ["un", "deux", "trois", "quatre", "cinq"];
 class vFinder {
-  constructor(image,title,description,author,year) {
+  constructor(title,image,description,author,year) {
     this.image = image;
     this.title = title;
     this.description = description;
     this.author = author;
     this.year = year;
   }
-
 toString() {
-  return this.image;
+  return "Title: " + this.title;
   }
 toString1() {
-  return "Title: " + this.title;
+  return this.image;
   }
 toString2() {
   return "Description: " + this.description;
@@ -25,11 +24,11 @@ toString4() {
   return "Year: " + this.year;
     }
 
-get theImage() {
-  return this.image;
-  }
 get theTitle() {
   return this.title;
+  }
+get theImage() {
+  return this.image;
   }
 get theDescription() {
   return this.description;
@@ -59,8 +58,8 @@ function  accessInfo() {
   var randomNumber = Math.floor(Math.random() * randArray.length);
   //console.log(myVFinder.toString());
   //console.log(myVFinder.theTitle);
-  document.getElementById("image").src = myVFinderArray[randomNumber].toString();
-  document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString1();
+  document.getElementById("title").innerHTML = myVFinderArray[randomNumber].toString();
+  document.getElementById("image").src = myVFinderArray[randomNumber].toString1();
   document.getElementById("description").innerHTML = myVFinderArray[randomNumber].toString2();
   document.getElementById("author").innerHTML = myVFinderArray[randomNumber].toString3();
   document.getElementById("year").innerHTML = myVFinderArray[randomNumber].toString4();
