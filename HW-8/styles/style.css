@@ -1,0 +1,17 @@
+#ellipse {
+  background: red;
+  width: 200px;
+  height: 280px;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+  border-top-left-radius: 50% 25%;
+  border-top-right-radius: 50% 25%;
+  position: absolute;
+  left: 0;
+  top: 100;
+
+}
+
+body {
+  background-color: beige;
+}
