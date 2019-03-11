@@ -1,7 +1,7 @@
 #ellipse {
   background: navy;
-  width: 200px;
-  height: 280px;
+  width: 70px;
+  height: 70px;
   border-bottom-left-radius: 50% 25%;
   border-bottom-right-radius: 50% 25%;
   border-top-left-radius: 50% 25%;
