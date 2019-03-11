@@ -1,16 +1,16 @@
 #eyeLeft {
-  background: navy;
   width: 70px;
   height: 70px;
+  background: navy;
   position: absolute;
   left: 100;
   top: 200;
 
 }
 #eyeRight {
-  background: ruby;
   width: 70px;
   height: 70px;
+  background: ruby;
   position: absolute;
   left: 200;
   top: 200;
