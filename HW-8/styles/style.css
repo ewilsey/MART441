@@ -11,6 +11,19 @@
   top: 1200;
 
 }
+#ellipseRight {
+  background: ruby;
+  width: 70px;
+  height: 70px;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+  border-top-left-radius: 50% 25%;
+  border-top-right-radius: 50% 25%;
+  position: absolute;
+  left: 3500;
+  top: 1200;
+
+}
 
 body {
   background-color: beige;
