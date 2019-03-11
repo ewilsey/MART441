@@ -6,16 +6,6 @@
   left: 100;
   top: 200;
 
-}
-#eyeRight {
-  width: 70px;
-  height: 70px;
-  background: ruby;
-  position: absolute;
-  left: 200;
-  top: 200;
-
-}
 
 body {
   background-color: beige;
