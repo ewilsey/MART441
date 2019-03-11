@@ -1,24 +1,16 @@
-#ellipseLeft {
+#eyeLeft {
   background: navy;
   width: 70px;
   height: 70px;
-  border-bottom-left-radius: 50% 25%;
-  border-bottom-right-radius: 50% 25%;
-  border-top-left-radius: 50% 25%;
-  border-top-right-radius: 50% 25%;
   position: absolute;
   left: 100;
   top: 200;
 
 }
-#ellipseRight {
+#eyeRight {
   background: ruby;
   width: 70px;
   height: 70px;
-  border-bottom-left-radius: 50% 25%;
-  border-bottom-right-radius: 50% 25%;
-  border-top-left-radius: 50% 25%;
-  border-top-right-radius: 50% 25%;
   position: absolute;
   left: 200;
   top: 200;
