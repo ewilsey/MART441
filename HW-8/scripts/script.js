@@ -3,6 +3,8 @@ $(document).ready(function() {
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 3000);
 
+    $("insect").fadeOut().fadeIn();
+
   });
 });
 
