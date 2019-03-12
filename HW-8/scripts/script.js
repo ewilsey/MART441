@@ -1,4 +1,10 @@
 //var insectSelector="#insect";
+class InsectInfo {
+  constructor(selector, imgsPath) {
+    this.selector=selector;
+    this.imgsPath=imgsPath;
+  }
+}
 $(document).ready(function() {
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
