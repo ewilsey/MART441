@@ -1,9 +1,11 @@
+var insectSelector="#insect";
 $(document).ready(function() {
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 3000);
 
-    $("#insect").fadeOut().fadeIn();
+    //$("#insect").fadeOut().fadeIn();
+    $(insectSelector).fadeOut().fadeIn();
 
   });
 });
