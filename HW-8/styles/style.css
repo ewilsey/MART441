@@ -4,11 +4,10 @@
   background: black;
   position: absolute;
   left: 0;
-  top: 100;
+  top: 10;
   right: 0;
   bottom: 0;
 }
-
 
 body {
   background-color: beige;
