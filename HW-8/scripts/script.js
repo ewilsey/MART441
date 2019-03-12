@@ -5,6 +5,9 @@ class InsectInfo {
     this.imgsPath=imgsPath;
   }
 }
+function initializeArray() {
+  var insect= new InsectInfo("#insect", "imgs/insect.jpg")
+}
 $(document).ready(function() {
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
