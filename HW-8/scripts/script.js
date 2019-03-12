@@ -15,7 +15,7 @@ class InsectInfo {
   }
 
   toString() {
-    return selector + ":" + this.imgsPath;
+    return this.selector + ":" + this.imgsPath;
   }
 
 }
