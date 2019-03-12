@@ -26,7 +26,7 @@ $(document).ready(function() {
     setInterval(moveEyes, 3000);
 
     //$("#insect").fadeOut().fadeIn();
-    $(allInsects[0]).fadeOut().fadeIn();
+    $(allInsects[0].theSelector).fadeOut().fadeIn();
 
   });
 });
