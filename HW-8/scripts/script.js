@@ -1,8 +1,7 @@
 $(document).ready(function() {
   $("button").click(function(){
-    for(var i = 0; i <5; i++){
-      moveEyes();
-    }
+    //for(var i = 0; i <5; i++){moveEyes();}
+    setInterval(moveEyes, 3000);
 
   });
 });
