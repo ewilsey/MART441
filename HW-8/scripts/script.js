@@ -20,12 +20,13 @@ function initializeArray() {
   allInsects.push(insect);
 }
 $(document).ready(function() {
+  $(allInsects[0]).src = allInsects[0].theImgsPath;
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 3000);
 
     //$("#insect").fadeOut().fadeIn();
-    $(allInsects).fadeOut().fadeIn();
+    $(allInsects[0]).fadeOut().fadeIn();
 
   });
 });
