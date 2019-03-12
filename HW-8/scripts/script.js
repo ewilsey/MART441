@@ -1,12 +1,23 @@
 //var insectSelector="#insect";
+var allInsects = new Array();
 class InsectInfo {
   constructor(selector, imgsPath) {
     this.selector=selector;
     this.imgsPath=imgsPath;
   }
+
+  get theSelector() {
+    return this.selector;
+  }
+
+  get theImgsPath() {
+    return this.imgsPath;
+  }
+
 }
 function initializeArray() {
   var insect= new InsectInfo("#insect", "imgs/insect.jpg")
+  allInsects.push(insect);
 }
 $(document).ready(function() {
   $("button").click(function(){
@@ -14,7 +25,7 @@ $(document).ready(function() {
     setInterval(moveEyes, 3000);
 
     //$("#insect").fadeOut().fadeIn();
-    //$(insectSelector).fadeOut().fadeIn();
+    $(allInsects).fadeOut().fadeIn();
 
   });
 });
