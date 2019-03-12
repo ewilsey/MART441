@@ -20,7 +20,7 @@ function initializeArray() {
   allInsects.push(insect);
 }
 $(document).ready(function() {
-  $(allInsects[0]).src = allInsects[0].theImgsPath;
+  $(allInsects[0].theSelector).src = allInsects[0].theImgsPath;
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 3000);
