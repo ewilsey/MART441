@@ -1,10 +1,19 @@
-#square {
+#eyeL {
   width: 70px;
   height: 70px;
   background: black;
   position: absolute;
-  left: 0px;
-  top: 100px;
+  left: 150px;
+  top: 150px;
+}
+
+#eyeR {
+  width: 70px;
+  height: 70px;
+  background: black;
+  position: absolute;
+  left: 450px;
+  top: 150px;
 }
 
 body {
