@@ -25,7 +25,7 @@ function initializeArray() {
 }
 $(document).ready(function() {
   console.log(allInsects[0].toString());
-  console.log(allInsects[0].theSelector());
+  console.log(allInsects[0].theSelector);
   $(allInsects[0].theSelector).src = allInsects[0].theImgsPath;
 
   $("button").click(function(){
