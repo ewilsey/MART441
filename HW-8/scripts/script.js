@@ -14,13 +14,20 @@ class InsectInfo {
     return this.imgsPath;
   }
 
+  toString() {
+    return selector + ":" + this.imgsPath;
+  }
+
 }
 function initializeArray() {
   var insect= new InsectInfo("#insect", "imgs/insect.jpg")
   allInsects.push(insect);
 }
 $(document).ready(function() {
+  console.log(allInsects[0].toString());
+  console.log(allInsects[0].theSelector());
   $(allInsects[0].theSelector).src = allInsects[0].theImgsPath;
+
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 3000);
