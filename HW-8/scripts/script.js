@@ -21,7 +21,12 @@ class InsectInfo {
 }
 function initializeArray() {
   var insect= new InsectInfo("#insect", "imgs/insect.jpg")
+  var insect1= new InsectInfo("#insect", "imgs/insect2.jpg")
+  var insect2= new InsectInfo("#insect", "imgs/insect3.jpg")
+
   allInsects.push(insect);
+  allInsects.push(insect2);
+  allInsects.push(insect3);
 }
 $(document).ready(function() {
   console.log(allInsects[0].toString());
