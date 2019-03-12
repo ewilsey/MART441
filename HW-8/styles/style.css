@@ -3,7 +3,7 @@
   height: 70px;
   background: black;
   position: absolute;
-  left: 150px;
+  left: 200px;
   top: 150px;
 }
 
@@ -13,7 +13,7 @@
   background: black;
   position: absolute;
   left: 700px;
-  top: 200px;
+  top: 150px;
 }
 
 body {
