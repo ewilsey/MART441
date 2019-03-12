@@ -30,7 +30,7 @@ $(document).ready(function() {
   $(allInsects[0].theSelector).attr("src", allInsects[0].theImgsPath);
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
-    setInterval(moveEyes, 3000);
+    setInterval(moveEyes, 7000);
 
     //$("#insect").fadeOut().fadeIn();
     $(allInsects[0].theSelector).fadeOut().fadeIn();
