@@ -1,6 +1,9 @@
 $(document).ready(function() {
   $("button").click(function(){
-    moveEyes();
+    for(var i = 0; i <5; i++){
+      moveEyes();
+    }
+
   });
 });
 
