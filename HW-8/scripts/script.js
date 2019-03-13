@@ -41,11 +41,8 @@ function initializeArray() {
 
 $(document).ready(function() {
 
-  //console.log(allInsects[0].toString());
-  //console.log(allInsects[0].theSelector);
-  //$(allInsects[0].theSelector).src = allInsects[0].theImgsPath;
-
-  $(allInsects[randomizer()].theSelector).attr("src", allInsects[randomizer()].theImgsPath);
+  console.log(allInsects[0].toString());
+  console.log(allInsects[0].theSelector);
 
   });
 
@@ -64,6 +61,9 @@ $(document).ready(function() {
     $(".word").toggle();
     //$("#insect").fadeOut().fadeIn();
     $(allInsects[0].theSelector).fadeOut().fadeIn();
+    //$(allInsects[0].theSelector).src = allInsects[0].theImgsPath;
+
+    $(allInsects[randomizer()].theSelector).attr("src", allInsects[randomizer()].theImgsPath);
 
   });
 
