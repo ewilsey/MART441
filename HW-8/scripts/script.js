@@ -70,7 +70,7 @@ $(document).ready(function() {
 
 function moveEyes() {
 
-  $("#eyeL").animate({left:300}).animate({left:100}).animate({left:200});
-  $("#eyeR").animate({left:800}).animate({left:600}).animate({left:700});
+  $("#eyeL").animate({left:300,width:90,height:90}).animate({left:100,width:50,height:50}).animate({left:200,width:70,height:70});
+  $("#eyeR").animate({left:800,width:90,height:90}).animate({left:600,width:50,height:50}).animate({left:700,width:70,height:70});
 
 }
