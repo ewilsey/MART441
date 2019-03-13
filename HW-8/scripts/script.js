@@ -48,7 +48,7 @@ $(document).ready(function() {
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 7000);
-    $(".word").css("font-size":"30").hide("").show("").hide("").show("").hide("").show("").hide("").show("").css("color","red");
+
     //$("#insect").fadeOut().fadeIn();
     $(allInsects[0].theSelector).fadeOut().fadeIn();
     $(allInsects[randomizer()].theSelector).attr("src", allInsects[randomizer()].theImgsPath);
@@ -73,5 +73,6 @@ function moveEyes() {
 
   $("#eyeL").animate({left:300,width:90,height:90}).animate({left:100,width:50,height:50}).animate({left:200,width:70,height:70});
   $("#eyeR").animate({left:800,width:90,height:90}).animate({left:600,width:50,height:50}).animate({left:700,width:70,height:70});
+  $(".word").animate({fontSize: "1em"}).animate({fontSize: "3em"}).animate({fontSize: "1em"}).animate({fontSize: "3em"});
 
 }
