@@ -35,8 +35,8 @@ function initializeArray() {
   var insect2= new InsectInfo("#insect", "imgs/insect3.jpg")
 
   allInsects.push(insect);
+  allInsects.push(insect1);
   allInsects.push(insect2);
-  allInsects.push(insect3);
 }
 
 $(document).ready(function() {
