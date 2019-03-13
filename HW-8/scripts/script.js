@@ -1,5 +1,6 @@
 //var insectSelector="#insect";
 var allInsects = new Array();
+var randArray = ["un", "deux", "trois"];
 class InsectInfo {
   constructor(selector, imgsPath) {
     this.selector=selector;
@@ -32,7 +33,16 @@ $(document).ready(function() {
   console.log(allInsects[0].toString());
   console.log(allInsects[0].theSelector);
   //$(allInsects[0].theSelector).src = allInsects[0].theImgsPath;
-  $(allInsects[0].theSelector).attr("src", allInsects[0].theImgsPath);
+  $(allInsects[randomizer()].theSelector).attr("src", allInsects[randomizer()].theImgsPath);
+
+  });
+
+});
+
+  function randomizer(){
+    var randomNumber = Math.floor(Math.random()*randArray.length);
+    return randomNumber;
+  }
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 7000);
@@ -44,6 +54,6 @@ $(document).ready(function() {
 });
 
 function moveEyes() {
-  $("#eyeL").animate({left:250}).animate({left:150}).animate({left:200});
-  $("#eyeR").animate({left:750}).animate({left:650}).animate({left:700});
+  $("#eyeL").animate({left:300}).animate({left:100}).animate({left:200});
+  $("#eyeR").animate({left:800}).animate({left:600}).animate({left:700});
 }
