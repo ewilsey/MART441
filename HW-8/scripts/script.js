@@ -37,7 +37,7 @@ $(document).ready(function() {
 
   });
 
-});
+
 
   function randomizer(){
     var randomNumber = Math.floor(Math.random()*randArray.length);
