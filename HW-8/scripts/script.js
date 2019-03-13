@@ -44,6 +44,7 @@ $(document).ready(function() {
   //console.log(allInsects[0].toString());
   //console.log(allInsects[0].theSelector);
   //$(allInsects[0].theSelector).src = allInsects[0].theImgsPath;
+  $(allInsects[randomizer()].theSelector).attr("src", allInsects[randomizer()].theImgsPath);
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 7000);
