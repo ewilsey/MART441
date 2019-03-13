@@ -48,7 +48,7 @@ $(document).ready(function() {
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 7000);
-    $(".word").hide("").show("").hide("").show("").hide("").show("").hide("").show("").css('color',randomColor());
+    $(".word").css('color','white').hide("").show("").hide("").show("").hide("").show("").hide("").show("").css('color','red');
     //$("#insect").fadeOut().fadeIn();
     $(allInsects[0].theSelector).fadeOut().fadeIn();
     $(allInsects[randomizer()].theSelector).attr("src", allInsects[randomizer()].theImgsPath);
