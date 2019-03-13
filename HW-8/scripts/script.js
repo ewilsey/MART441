@@ -47,7 +47,7 @@ $(document).ready(function() {
   $("button").click(function(){
     //for(var i = 0; i <5; i++){moveEyes();}
     setInterval(moveEyes, 7000);
-    $(".word").toggle("");
+    $(".word").hide("").css("color","red");
     //$("#insect").fadeOut().fadeIn();
     $(allInsects[0].theSelector).fadeOut().fadeIn();
     $(allInsects[randomizer()].theSelector).attr("src", allInsects[randomizer()].theImgsPath);
