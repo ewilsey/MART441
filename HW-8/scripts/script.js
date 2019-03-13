@@ -51,7 +51,7 @@ $(document).ready(function() {
     $(allInsects[0].theSelector).fadeOut().fadeIn();
 
   });
-});
+
 
 function moveEyes() {
   $("#eyeL").animate({left:300}).animate({left:100}).animate({left:200});
