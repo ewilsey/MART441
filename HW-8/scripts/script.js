@@ -1,4 +1,4 @@
-var insectSelector="#insect";
+//var insectSelector="#insect";
 var allInsects = new Array();
 var randArray = ["un", "deux", "trois"];
 
