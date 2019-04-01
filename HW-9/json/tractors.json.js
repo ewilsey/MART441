@@ -1,4 +1,4 @@
-let tractor =
+[
   {
     "Manufacturer": "Fendt",
     "Model": "828 Vario",
