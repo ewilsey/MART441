@@ -1,27 +1,6 @@
-
- var theTractors = [
-   {
-     "Make": "Fendt",
-     "Model": "828 Vario",
-     "Color": "Green",
-     "Years": "2010 -"
-   },
-   {
-     "Make": "Schlüter",
-     "Model": "1500 TVL",
-     "Color": "Red",
-     "Years":"1981-1984"
-   },
-   {
-     "Make": "Case IH",
-     "Model": "Magnum CVX",
-     "Color": "Red",
-     "Years":"1987-"
-   },
-   {
-     "Make": "New Holland",
-     "Model": "T5",
-     "Color": "Blue",
-     "Years":"2017"
-   }
- ]
+var grabRequest = new XMLHttpRequest();
+grabRequest.open('Get', 'https://ewilsey.github.io/MART441/HW-9/json/tractos.json')
+grabRequest.onload = function(){
+  console.log(grabRequest.responseText);
+};
+grabRequest.send();
