@@ -1,33 +1,33 @@
 <html>
     <head>
         <script>
-            let bike = {
-                "manufacturer" : "Santa Cruz",
-                "model" : "5010",
+            let tractor = {
+                "manufacturer" : "Hürlimann",
+                "model" : "H 488",
                 "owner" : {
                     "firstName" : "Bob",
                     "lastName" : "Jones"
                 },
-                "sizes" : [
-                    "small",
-                    "medium",
-                    "large",
-                    "x-large"
+                "wheel setup" : [
+                    "standard",
+                    "narror",
+                    "twin",
+                    "twin-rear"
                 ]
             }
 
-            function showBikeInfo()
+            function showTractorInfo()
             {
-                document.getElementById("bikeInformation").innerHTML = "Manufacturer: " + bike.manufacturer
-                + "<br>Model:" + bike.model + "<br>First Name:" + bike.owner.firstName + "<br>Last Name:"
-                + bike.owner.lastName + "<br>Sizes Available:<br>" +
-                bike.sizes[0] + "<br>" + bike.sizes[1] + "<br>" + bike.sizes[2] + "<br>" + bike.sizes[3];
+                document.getElementById("tractorInformation").innerHTML = "Manufacturer: " + tractor.manufacturer
+                + "<br>Model:" + tractor.model + "<br>First Name:" + tractor.owner.firstName + "<br>Last Name:"
+                + tractor.owner.lastName + "<br>Wheel Setup Available:<br>" +
+                tractor.wheels[0] + "<br>" + tractor.wheels[1] + "<br>" + tractor.wheels[2] + "<br>" + tractor.wheels[3];
             }
         </script>
     </head>
 
     <body>
-        <div id="bikeInformation"></div>
-        <button id="btnSubmit" onclick="showBikeInfo();">Show Information</button>
+        <div id="tractorInformation"></div>
+        <button id="btnSubmit" onclick="showTractorInfo();">Show Information</button>
     </body>
 </html>
