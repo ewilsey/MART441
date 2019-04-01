@@ -1,24 +1,24 @@
-[
+let tractor =
   {
-    "Make": "Fendt",
+    "Manufacturer": "Fendt",
     "Model": "828 Vario",
     "Color": "Green",
-    "Years": "2010 -"
+    "Year": "2010"
   },
   {
-    "Make": "Schlüter",
+    "Manufacturer": "Schlüter",
     "Model": "1500 TVL",
     "Color": "Red",
-    "Years":"1981-1984"
+    "Year":"1981"
   },
   {
-    "Make": "Case IH",
+    "Manufacturer": "Case IH",
     "Model": "Magnum CVX",
     "Color": "Red",
-    "Years":"1987-"
+    "Years":"1987"
   },
   {
-    "Make": "New Holland",
+    "Manufacturer": "New Holland",
     "Model": "T5",
     "Color": "Blue",
     "Years":"2017"
