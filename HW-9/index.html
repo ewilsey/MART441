@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <script>
 
-        function showTractorInfo() {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                var tractor = JSON.parse(this.responseText);
-                document.getElementById("tractorInformation").innerHTML = "Manufacturer: " + tractor.manufacturer
-                + "<br>Model:" + tractor.model + "<br>Body Color:" + tractor.color.body + "<br>Rim Color:"
-                + tractor.color.rim + "<br>Wheel Setups Available:<br>" +
-                tractor.setups[0] + "<br>" + tractor.setups[1] + "<br>" + tractor.setups[2] + "<br>" + tractor.setups[3];
-            }
-          };
-          xhttp.open("GET", "tractor.json", true);
-          xhttp.send();
+      function showTractorInfo() {
+        var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            var tractor = JSON.parse(this.responseText);
+            document.getElementById("tractorInformation").innerHTML = "Manufacturer: " + tractor.manufacturer
+            + "<br>Model:" + tractor.model + "<br>Body Color:" + tractor.color.body + "<br>Rim Color:"
+            + tractor.color.rim + "<br>Wheel Setups Available:<br>" +
+            tractor.setups[0] + "<br>" + tractor.setups[1] + "<br>" + tractor.setups[2] + "<br>" + tractor.setups[3];
+          }
+        };
+        xhttp.open("GET", "tractor.json", true);
+        xhttp.send();
       }
-        </script>
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-    </head>
+    </script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
 
-    <body>
-        <div id="tractorInformation"></div>
-        <button id="btnSubmit" onclick="showTractorInfo();">Show Information</button>
-    </body>
+  <body>
+    <div id="tractorInformation"></div>
+    <button id="btnSubmit" onclick="showTractorInfo();">Show Information</button>
+  </body>
 </html>
