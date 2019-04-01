@@ -1,4 +1,4 @@
-[
+let tractor =  {
   {
     "Manufacturer": "Fendt",
     "Model": "828 Vario",
@@ -15,12 +15,19 @@
     "Manufacturer": "Case IH",
     "Model": "Magnum CVX",
     "Color": "Red",
-    "Years":"1987"
+    "Year":"1987"
   },
   {
     "Manufacturer": "New Holland",
     "Model": "T5",
     "Color": "Blue",
-    "Years":"2017"
+    "Year":"2017"
   }
-]
+}
+
+function showTractorInfo()
+{
+  document.getElementById("tractorInformation").innerHTML = "Manufacturer: " + tractor.manufacturer
+                + "<br>Model:" + tractor.model + "<br>Color:" + tractor.color + "<br>Year:"
+                + tractor.year;
+}
