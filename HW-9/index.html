@@ -19,14 +19,14 @@
 
             $(function () {
             $("button").click(function () {
-                showBikeInfo();
+                showTractorInfo();
             });
 
         });
 
-        function showBikeInfo()
+        function showTractorInfo()
             {
-                $("#bikeInformation").html("Manufacturer: " + tractor.manufacturer
+                $("#tractorInformation").html("Manufacturer: " + tractor.manufacturer
                 + "<br>Model:" + tractor.model + "<br>Body Color:" + tractor.color.body + "<br>Rim Color:"
                 + tractor.color.rim + "<br>Wheel Setups Available:<br>" +
                 tractor.setups[0] + "<br>" + tractor.setups[1] + "<br>" + tractor.setups[2] + "<br>" + tractor.setups[3]);
