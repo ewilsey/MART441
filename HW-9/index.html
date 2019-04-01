@@ -8,7 +8,7 @@
                     "firstName" : "Bob",
                     "lastName" : "Jones"
                 },
-                "wheel setups" : [
+                "setups" : [
                     "small",
                     "medium",
                     "large",
@@ -20,14 +20,14 @@
             {
                 document.getElementById("tractorInformation").innerHTML = "Manufacturer: " + tractor.manufacturer
                 + "<br>Model:" + tractor.model + "<br>First Name:" + tractor.owner.firstName + "<br>Last Name:"
-                + tractor.owner.lastName + "<br>Wheel Setups Available:<br>" +
-                tractor.sizes[0] + "<br>" + tractor.sizes[1] + "<br>" + tractor.sizes[2] + "<br>" + tractor.sizes[3];
+                + tractor.owner.lastName + "<br>Sizes Available:<br>" +
+                tractor.setups[0] + "<br>" + tractor.setups[1] + "<br>" + tractor.setups[2] + "<br>" + tractor.setups[3];
             }
         </script>
     </head>
 
     <body>
         <div id="tractorInformation"></div>
-        <button id="btnSubmit" onclick="showTractorInfo();">Show Information</button>
+        <button id="btnSubmit" onclick="showInfo();">Show Information</button>
     </body>
 </html>
