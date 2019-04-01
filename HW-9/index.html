@@ -4,9 +4,9 @@
             let tractor = {
                 "manufacturer" : "Hürlimann",
                 "model" : "H 488",
-                "owner" : {
-                    "firstName" : "Dirk",
-                    "lastName" : "Diggler"
+                "color" : {
+                    "body" : "Green",
+                    "rim" : "Grey"
                 },
                 "setups" : [
                     "Standard",
@@ -19,8 +19,8 @@
             function showTractorInfo()
             {
                 document.getElementById("tractorInformation").innerHTML = "Manufacturer: " + tractor.manufacturer
-                + "<br>Model:" + tractor.model + "<br>First Name:" + tractor.owner.firstName + "<br>Last Name:"
-                + tractor.owner.lastName + "<br>Wheel Setups Available:<br>" +
+                + "<br>Model:" + tractor.model + "<br>Body Color:" + tractor.color.body + "<br>Rim Color:"
+                + tractor.color.rim + "<br>Wheel Setups Available:<br>" +
                 tractor.setups[0] + "<br>" + tractor.setups[1] + "<br>" + tractor.setups[2] + "<br>" + tractor.setups[3];
             }
         </script>
