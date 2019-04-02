@@ -2,6 +2,8 @@
         height: 50px;
         width: 200px;
         border-radius: 10px;
+        border: 1px solid BlanchedAlmond;
         color: BlanchedAlmond;
-        background-color: Navy;
+        background: none;
+        padding: 10px 20px;
 }
