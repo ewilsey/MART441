@@ -2,21 +2,10 @@
 <html>
   <head>
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("button").click(function () {
-          $("#tractorInformation").load("tractor.txt", fadeText);
-        });
-      });
-
-      function fadeText()
-      {
-        $("#tractorInformation").fadeOut("slow").fadeIn("slow");
-      }
-    </script>
+    <script src = "scripts/AJAX.js"></script>
   </head>
   <body>
-    <div id="tractorInformation"></div>
-    <button type="button" name="button">Get Tractor Information</button>
+    <div id = "tractorInformation"></div>
+    <button>Get Tractor Information</button>
   </body>
 </html>
