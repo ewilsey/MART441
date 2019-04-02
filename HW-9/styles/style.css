@@ -1,6 +1,5 @@
       #btnSubmit{
-        height: 100% ;
-        width: 100%;
+        border-radius: 25%;
         color: BlanchedAlmond;
         background-color: Olive;
       }
