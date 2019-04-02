@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Zetor",
+    "model" : "Major 80",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard",
+        "-",
+        "-",
+        "-"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "New Holland",
+    "model" : "8340",
+    "color" : {
+        "body" : "Blue",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard",
+        "Wide",
+        "-",
+        "-"
+    ]
+}

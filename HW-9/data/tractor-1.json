@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Hürlimann",
+    "model" : "H 488",
+    "color" : {
+        "body" : "Green",
+        "rim" : "Light Brown"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "-",
+        "-"
+    ]
+}

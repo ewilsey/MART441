@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Lindner",
+    "model" : "Lintrac 90",
+    "color" : {
+        "body" : "Red",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard",
+        "Wide",
+        "Twin",
+        "-"
+    ]
+}

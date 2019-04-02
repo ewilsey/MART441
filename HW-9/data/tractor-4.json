@@ -1,14 +1,14 @@
 {
-    "manufacturer" : "Hürlimann",
-    "model" : "H 488",
+    "manufacturer" : "New Holland",
+    "model" : "T5",
     "color" : {
-        "body" : "Green",
+        "body" : "Blue",
         "rim" : "Grey"
     },
     "setups" : [
         "Standard",
         "Narrow",
         "Wide",
-        "Twin-rear"
+        "-"
     ]
 }

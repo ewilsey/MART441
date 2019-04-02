@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Zetor",
+    "model" : "Forterra HD",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "-",
+        "-"
+    ]
+}

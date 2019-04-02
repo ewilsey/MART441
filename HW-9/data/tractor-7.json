@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Massy Ferguson",
+    "model" : "MF 5600",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "-",
+        "-"
+    ]
+}

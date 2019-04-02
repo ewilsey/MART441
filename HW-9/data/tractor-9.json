@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Hürlimann",
+    "model" : "XM T4i",
+    "color" : {
+        "body" : "Green",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "Wide",
+        "-"
+    ]
+}

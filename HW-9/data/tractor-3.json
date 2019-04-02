@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Steyr",
+    "model" : "Multi",
+    "color" : {
+        "body" : "Red",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "Wide",
+        "-"
+    ]
+}

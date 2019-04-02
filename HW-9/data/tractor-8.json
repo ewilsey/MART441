@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Zetor",
+    "model" : "Proxima Power 120",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard",
+        "-",
+        "-",
+        "-"
+    ]
+}
