@@ -18,6 +18,8 @@ let tractor = {
       showTractorInfo();
   });
 
+});
+
   function showTractorInfo()
     {
       $("#tractorInformation").html("Manufacturer: " + tractor.manufacturer
