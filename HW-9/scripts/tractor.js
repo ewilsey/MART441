@@ -13,12 +13,15 @@ let tractor = {
     ]
 }
 
-$(document).ready(function () {
+  $(function (){
     $("button").click(function () {
-      $.getJSON("tractor.js", function(result){
-        $.each(result, function(i, field){
-          $("div").append(field + " ");
-          });
-        });
-      });
-    });
+      showTractorInfo();
+  }):
+
+  function showTractorInfo()
+    {
+      $("#tractorInformation").html("Manufacturer: " + tractor.manufacturer
+      + "<br>Model: " + tractor.model + "<br> Body Color: " + tractor.color.body + "<br> Rim Color: "
+      + tractor.color.rim + "<br>Available Wheel Setups:<br>" +
+      tractor.setups[0] + "<br>" + tractor.setups[1] + "<br>" + tractor.setups[2] + "<br>" + tractor.setups[3]);
+    }
