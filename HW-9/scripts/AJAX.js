@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $("button").click(function () {
-    $("#tractorInformation").load("data/tractor.json-2", function(responseText) {
+    $("#tractorInformation").load("data/tractor-2.json", function(responseText) {
       var tractor = JSON.parse(responseText);
       $("#tractorInformation").html("Manufacturer: " + tractor.manufacturer
       + "<br>Model: " + tractor.model + "<br> Body Color: " + tractor.color.body + "<br> Rim Color: "
