@@ -16,7 +16,7 @@ let tractor = {
   $(function (){
     $("button").click(function () {
       showTractorInfo();
-  }):
+  });
 
   function showTractorInfo()
     {
