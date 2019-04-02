@@ -7,6 +7,9 @@ body  {
   text-align: center;
 
 }
+#tractorInformation {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 #btnSubmit  {
   height: 100px;
   width: 200px;
