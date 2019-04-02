@@ -5,21 +5,29 @@
     <script>
         $(document).ready(function () {
             $("button").click(function () {
-                $("#tractorInformation").load("tractor.json", fadeText);
-            });
-        });
+              $.getJSON("tractor.json", fadeText, function(result){
+                $.each(result, function(i, field){
+                  $("div").append(field + " ");
+                  });
+                });
+              });
+
+
+
+
+
+
+
 
         function fadeText()
         {
             $("#tractorInformation").fadeOut("slow").fadeIn("slow");
         }
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="tractorInformation"></div>
     <button>Get Tractor Information</button>
-</body>
-
-</html>
+  </body>
 </html>
