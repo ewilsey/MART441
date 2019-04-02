@@ -1,6 +1,6 @@
       #btnSubmit{
-        height: 2rem ;
-        width: 5rem;
+        height: 100% ;
+        width: 100%;
         color: BlanchedAlmond;
         background-color: Olive;
       }
