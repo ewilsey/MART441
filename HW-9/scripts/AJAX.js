@@ -1,3 +1,5 @@
+var tractorCounter = 1;
+
 $(document).ready(function () {
   $("button").click(function () {
     $("#tractorInformation").load("data/tractor-2.json", function(responseText) {
