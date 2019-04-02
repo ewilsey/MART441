@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Lamborghini",
+    "model" : "Mach VRT",
+    "color" : {
+        "body" : "White",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Weighted",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

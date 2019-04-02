@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Deutz Fahr",
+    "model" : "Series 7",
+    "color" : {
+        "body" : "Green",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard",
+        "Weighted",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

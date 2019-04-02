@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Case IH",
+    "model" : "Puma CVX",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Narrow",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

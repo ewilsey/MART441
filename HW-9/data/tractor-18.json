@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "JCB",
+    "model" : "Fastrac 3000 Xtra",
+    "color" : {
+        "body" : "Yellow",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard",
+        "Wide",
+        "-",
+        "-"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Valtra",
+    "model" : "T Series",
+    "color" : {
+        "body" : "White",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "Rear-Twin",
+        "Weighted"
+    ]
+}

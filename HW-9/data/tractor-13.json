@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Fendt",
+    "model" : "300 Vario",
+    "color" : {
+        "body" : "Green",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "-",
+        "-"
+    ]
+}

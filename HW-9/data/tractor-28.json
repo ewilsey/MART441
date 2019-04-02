@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Deutz Fahr",
+    "model" : "Series 9",
+    "color" : {
+        "body" : "Green",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Twin",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

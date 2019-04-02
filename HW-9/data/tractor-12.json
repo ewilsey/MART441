@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Case IH",
+    "model" : "1455 XL",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard",
+        "Wide",
+        "-",
+        "-"
+    ]
+}

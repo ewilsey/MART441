@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Case IH",
+    "model" : "Optum CVX",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Narrow Twin",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

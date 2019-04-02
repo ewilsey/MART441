@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Same",
+    "model" : "Fortis",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "Wide",
+        "-"
+    ]
+}

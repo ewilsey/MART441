@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Valtra",
+    "model" : "N Series",
+    "color" : {
+        "body" : "BLue",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "Wide",
+        "-"
+    ]
+}

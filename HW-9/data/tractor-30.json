@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "New Holland",
+    "model" : "T8",
+    "color" : {
+        "body" : "Blue",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Crawler Track",
+        "Wide",
+        "Twin or Rear-Twin"
+    ]
+}

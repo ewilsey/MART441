@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Fendt",
+    "model" : "700 Vario",
+    "color" : {
+        "body" : "Green",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Narrow",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

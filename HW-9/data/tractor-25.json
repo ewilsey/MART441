@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Steyr",
+    "model" : "Terrus CVT",
+    "color" : {
+        "body" : "Red",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Twin",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

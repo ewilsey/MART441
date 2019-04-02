@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Massey Ferguson",
+    "model" : "MF 8700",
+    "color" : {
+        "body" : "Red",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Twin",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

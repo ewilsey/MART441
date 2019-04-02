@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "New Holland",
+    "model" : "T7 Heavy Duty",
+    "color" : {
+        "body" : "Blue",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard with optional weights",
+        "Twin",
+        "Wide",
+        "Rear-Twin"
+    ]
+}

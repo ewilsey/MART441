@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "JCB",
+    "model" : "Fastrac 8000",
+    "color" : {
+        "body" : "Yellow",
+        "rim" : "Grey"
+    },
+    "setups" : [
+        "Standard",
+        "Weighted",
+        "-",
+        "-"
+    ]
+}

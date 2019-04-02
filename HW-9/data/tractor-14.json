@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "New Holland",
+    "model" : "T6",
+    "color" : {
+        "body" : "Blue",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "-",
+        "-"
+    ]
+}

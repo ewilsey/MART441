@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Valtra",
+    "model" : "S Series",
+    "color" : {
+        "body" : "Black",
+        "rim" : "White"
+    },
+    "setups" : [
+        "Standard",
+        "Weighted",
+        "Wide",
+        "Twin or Rear-Twin"
+    ]
+}

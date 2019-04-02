@@ -1,0 +1,14 @@
+{
+    "manufacturer" : "Deutz Fahr",
+    "model" : "AgroStar 6.61",
+    "color" : {
+        "body" : "Green",
+        "rim" : "Red"
+    },
+    "setups" : [
+        "Standard",
+        "Narrow",
+        "Wide",
+        "Rear-Twin"
+    ]
+}
