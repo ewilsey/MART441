@@ -10,6 +10,9 @@ $(document).ready(function () {
       tractor.setups[0] + "<br>" + tractor.setups[1] + "<br>" + tractor.setups[2] + "<br>" + tractor.setups[3]);
     });
     tractorCounter ++;
+    if(tractorCounter >31){
+      tractorCounter =1;
+    }
   });
 });
 
