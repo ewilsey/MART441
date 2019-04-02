@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $("button").click(function () {
-    $("#tractorInformation").load("data/tractor.txt", fadeText);
+    $("#tractorInformation").load("data/tractor.json", fadeText);
   });
 });
 
