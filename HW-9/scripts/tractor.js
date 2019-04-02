@@ -15,7 +15,7 @@ let tractor = {
 
 $(document).ready(function () {
     $("button").click(function () {
-      $.getJSON("tractor.json", function(result){
+      $.getJSON("tractor.js", function(result){
         $.each(result, function(i, field){
           $("div").append(field + " ");
           });
