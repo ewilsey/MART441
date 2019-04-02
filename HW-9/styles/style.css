@@ -1,9 +1,19 @@
-      #btnSubmit{
-        height: 50px;
-        width: 200px;
-        border-radius: 10px;
-        border: 1px solid BlanchedAlmond;
-        color: BlanchedAlmond;
-        background: none;
-        padding: 10px 20px;
+body  {
+  margin: 0px;
+  padding: 0px;
+}
+.container  {
+  text-align: center;
+  margin-top: 360px;
+
+}
+#btnSubmit  {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid BlanchedAlmond;
+  color: BlanchedAlmond;
+  background: none;
+  padding: 10px 20px;
+  font-size: 25px;
 }
