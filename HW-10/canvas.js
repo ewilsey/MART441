@@ -24,8 +24,18 @@ ctx.stroke();
 
 
 //circle //arc
-ctx.beginPath();
-ctx.arc(x,y,r,0,Math.PI * 2, false);
-ctx.strokeStyle = 'cyan';
-   ctx.stroke();
+//ctx.beginPath();
+//ctx.arc(x,y,r,0,Math.PI * 2, false);
+//ctx.strokeStyle = 'cyan';
+//ctx.stroke();
+
+for (var i = 0; i < 100; i++) {
+  var x1 = Math.random() * window.innerWidth;
+  var y1 = Math.random() * window.innerHeight;
+  ctx.beginPath();
+  ctx.arc(x1,y1,r,0,Math.PI * 2, false);
+  ctx.strokeStyle = 'cyan';
+  ctx.stroke();
+}
+
 console.log(canvas);
