@@ -1,1 +1,2 @@
-var canvas = getElementById('canvas')console.log(canvas);
+var canvas = getElementById('canvas');
+console.log(canvas);
