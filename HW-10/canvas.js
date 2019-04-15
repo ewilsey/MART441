@@ -1,1 +1,1 @@
-console.log('fuck');
+var canvas = getElementById('canvas')console.log(canvas);
