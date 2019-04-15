@@ -15,6 +15,8 @@ ctx.fillRect(x + 40 ,y + 20,w,h);
 ctx.beginPath();
 ctx.moveTo(x, y);
 ctx.lineTo(x + 40, y + 20);
+ctx.strokeStyle = 'red'; //must be above stroke
 ctx.stroke();
-ctx.strokeStyle = 'red';
+
+ctx.closePath();
 console.log(canvas);
