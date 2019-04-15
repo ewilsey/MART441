@@ -16,4 +16,5 @@ ctx.beginPath();
 ctx.moveTo(x, y);
 ctx.lineTo(x + 40, y + 20);
 ctx.stroke();
+ctx.strokeStyle = 'red';
 console.log(canvas);
