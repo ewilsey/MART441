@@ -1,22 +1,25 @@
 ##HW 10
 
 #Late on this assignment.
-For the 3rd or more week in a row, I had issues from the start. The script will work on the
-course website but not on my end when I put it in its own folder. I cannot get the blue square to
-show up. The tutorials changed so there is less information to go off of. I want to see a working
-example and then I want to try it on my own. Building the entire week off of me not getting
-the tutorial to work on my end was very frustrating.
+For several weeks in a row, I have had issues from the start of the tutorials. They
+are becoming more and more vague and IT IS NOT HELPING!!! I have not been completing assignments
+to my standards because I don't know how to get anything done or even started.
 
-## The tutorials never show enough information.
-If I could get 2 steps into a task and then have a find out on my own portion it would be
-better than this here's 1 step or here's no steps: good luck. That's what makes this class
-needlessly difficult. I want to showcase my talents and not spend hours trying to
-figure out why 1 insignificant thing isn't working. Even on week 9, getting AJAX, jquery and
-JSON to work together was a nightmare. I even tried to stop by and get help and was told to chain
-it and that didn't help.
+## THE TUTORIALS NEED TO SHOW MORE INFORMATION!!!
+A detailed walkthrough of a task BEFORE having to find out how to do the rest on my own is
+all that I ask for. I want to showcase my talents and not spend hours
+trying to figure out why 1 insignificant thing isn't working.
+
+## Not the first time this has happened.
+Last week was a nightmare (week 9) and getting AJAX, jquery and JSON to work together was too
+confusing. I even drove to Missoula to stop in and get help and was told to chain
+jquery and that didn't help.
 
 #Why do I have to spend so much time researching outside sources?
-I don't get it.
+I watch several tutorials on YouTube and read through examples on W3 Schools.
+It would be preferable to get the majority if not ALL of the information from the class tutorials.
+
+
 
 #Live Site:
 [HW-10](https://ewilsey.github.io/MART441/HW-10/)
