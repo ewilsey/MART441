@@ -61,9 +61,10 @@ var circle = Circle(200,200);
 
 function  animate(){
   requestAnimationFrame(animate);
+
   ctx.clearRect(0,0,innerWidth,innerHeight);
 
-  circle.draw();
+
 
   ctx.beginPath();
   ctx.arc(x,y,r,0,Math.PI * 2, false);
