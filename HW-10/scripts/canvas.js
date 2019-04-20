@@ -13,14 +13,29 @@ canvas.height = window.innerHeight;
 
 
 //rect
+c.fillStyle = 'rgba(255,255,0,0.5)';
 c.fillRect(x,y,w,h);
+c.fillStyle = 'rgba(0,255,255,0.5)';
 c.fillRect(x-j,y+j,w,h);
+c.fillStyle = 'rgba(255,0,255,0.5)';
 c.fillRect(x+j,y+j,w,h);
+c.fillStyle = 'rgba(0,255,0,0.5)';
 c.fillRect(x,y+k,w,h);
+
 
 //line
 c.beginPath();
 c.moveTo(50,300);
 c.lineTo(300,100);
 c.lineTo(400,100);
+c.strokeStyle = "blue";
+c.stroke();
+
+//arc
+//c.arc(x:Int, y: Int, r: Int, startAngle:
+//Float, endAngle: Float,
+//drawCounterClockwise: Bool (false));
+c.beginPath();
+c.arc(300,300,30,0, Math.PI * 2, false);
+c.strokeStyle = 'red';
 c.stroke();
