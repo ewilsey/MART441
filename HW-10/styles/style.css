@@ -3,6 +3,7 @@ body{
 
 }
 canvas{
-  border: 1px dashed red;
-
+  border: red;
+  border-style: dashed;
+  border-width: 2px;
 }
