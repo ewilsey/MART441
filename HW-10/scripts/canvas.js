@@ -11,8 +11,8 @@ var w = 100;
 var x = Math.random() * innerWidth;
 var y = Math.random() * innerHeight;
 
-var dx = 4;
-var dy = 4;
+var dx = (Math.random() - 0.5) * 8;
+var dy = (Math.random() - 0.5) * 8;
 
 
 canvas.width = window.innerWidth;
@@ -61,9 +61,25 @@ canvas.height = window.innerHeight;
 //c.strokeStyle = color[Math.floor(Math.random() * color.length)];
 //c.stroke();
 
+function Circle(x,y) {
+  this.x = x;
+  this.y = y;
+
+  this.draw = function()  {
+    c.beginPath();
+    c.arc(x,y,r,0, Math.PI * 2, false);
+    c.strokeStyle = color[Math.floor(Math.random() * color.length)];
+    c.stroke();
+  }
+}
+
+var circle = new Circle(200,200);
+
+
 function  animate(){
   requestAnimationFrame(animate);
   c.clearRect(0,0,innerWidth,innerHeight);
+  circle.draw();
   c.beginPath();
   c.arc(x,y,r,0, Math.PI * 2, false);
   c.strokeStyle = color[Math.floor(Math.random() * color.length)];
