@@ -1,6 +1,8 @@
 var canvas = document.querySelector('canvas');
-var color=['cyan','royalblue','darkred','darkorange','teal','sandybrown','deepskyblue'];
 var c = canvas.getContext('2d');
+
+var color=['cyan','royalblue','darkred','darkorange','teal','sandybrown','deepskyblue'];
+
 var h = 100;
 var j = 100;
 var k = 200;
