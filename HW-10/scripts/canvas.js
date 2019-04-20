@@ -61,19 +61,37 @@ canvas.height = window.innerHeight;
 //c.strokeStyle = color[Math.floor(Math.random() * color.length)];
 //c.stroke();
 
-function Circle(x,y) {
+function Circle(x,y,dx,dy,r) {
   this.x = x;
   this.y = y;
+  this.dx = dx;
+  this.dy = dy;
+  this.r = r;
 
   this.draw = function()  {
     c.beginPath();
-    c.arc(x,y,r,0, Math.PI * 2, false);
+    c.arc(this.x,this.y,this.r,0, Math.PI * 2, false);
     c.strokeStyle = color[Math.floor(Math.random() * color.length)];
     c.stroke();
   }
-}
 
-var circle = new Circle(200,200);
+  this.update = function()  {
+    if (this.x + this.r > innerWidth || this.x - this.r < 0) {
+      this.dx = -this.dx;
+    }
+
+    if (this.y + this.r > innerHeight || this.y - this.r <0) {
+      this.dy = -this.dy;
+    }
+    this.x += this.dx;
+    this.y += this.dy;
+
+    }
+  }
+
+
+
+var circle = new Circle(200,200,3,3,30);
 
 
 function  animate(){
