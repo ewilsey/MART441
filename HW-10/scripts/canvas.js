@@ -59,5 +59,5 @@ c.stroke();
 
 function animate(){
   requestAnimationFrame(animate);
-  console.log('shit');
+  console.log('soefj');
 }
