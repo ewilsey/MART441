@@ -52,12 +52,15 @@ canvas.height = window.innerHeight;
 //  c.stroke();
 //}
 
-c.beginPath();
-c.arc(x,y,30,0, Math.PI * 2, false);
-c.strokeStyle = color[Math.floor(Math.random() * color.length)];
-c.stroke();
+//c.beginPath();
+//c.arc(x,y,30,0, Math.PI * 2, false);
+//c.strokeStyle = color[Math.floor(Math.random() * color.length)];
+//c.stroke();
 
-function animate(){
+function  animate(){
   requestAnimationFrame(animate);
-  console.log('soefj');
+  c.beginPath();
+  c.arc(x,y,30,0, Math.PI * 2, false);
+  c.strokeStyle = color[Math.floor(Math.random() * color.length)];
+  c.stroke();
 }
