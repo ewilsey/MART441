@@ -6,9 +6,13 @@ var color=['cyan','royalblue','darkred','darkorange','teal','sandybrown','deepsk
 var h = 100;
 var j = 100;
 var k = 200;
+var r = 30;
 var w = 100;
-var x = 100;
-var y = 100;
+var x = Math.random() * innerWidth;
+var y = Math.random() * innerHeight;
+
+var dx = 4;
+var dy = 4;
 
 
 canvas.width = window.innerWidth;
@@ -59,8 +63,23 @@ canvas.height = window.innerHeight;
 
 function  animate(){
   requestAnimationFrame(animate);
+  c.clearRect(0,0,innerWidth,innerHeight);
   c.beginPath();
-  c.arc(x,y,30,0, Math.PI * 2, false);
+  c.arc(x,y,r,0, Math.PI * 2, false);
   c.strokeStyle = color[Math.floor(Math.random() * color.length)];
   c.stroke();
+
+
+if (x + r > innerWidth || x - r < 0) {
+  dx = -dx;
 }
+
+if (y + r > innerHeight || y - r <0) {
+  dy = -dy;
+}
+x +=dx;
+y +=dy;
+
+}
+
+animate();
