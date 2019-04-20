@@ -2,11 +2,11 @@ var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
 
 var color=['cyan','royalblue','darkred','darkorange','teal','sandybrown','deepskyblue'];
-
 var h = 100;
 var j = 100;
-var k = 200
+var k = 200;
 var w = 100;
+
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -84,24 +84,20 @@ function Circle(x,y,dx,dy,r) {
   }
 
 var circleArray = [];
-
-for (var i = 0; i <100, i++) {
+for (var i = 0; i < circleArray.length; i++) {
   var x = Math.random() * innerWidth;
   var y = Math.random() * innerHeight;
   var dx = (Math.random() - 0.5) * 8;
   var dy = (Math.random() - 0.5) * 8;
   var r = 30;
-
   circleArray.push(new Circle(x,y,dx,dy,r));
-
 }
 
 function  animate(){
   requestAnimationFrame(animate);
   c.clearRect(0,0,innerWidth,innerHeight);
-
-  for (var i = 0; i < circleArray.length; i ++) {
-      circleArray|i|.update();
+  for (var i = 0; i < circleArray.length; i++) {
+    circleArray[i].update();
   }
 
 }
