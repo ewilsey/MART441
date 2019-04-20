@@ -5,15 +5,8 @@ var color=['cyan','royalblue','darkred','darkorange','teal','sandybrown','deepsk
 
 var h = 100;
 var j = 100;
-var k = 200;
-var r = 30;
+var k = 200
 var w = 100;
-var x = Math.random() * innerWidth;
-var y = Math.random() * innerHeight;
-
-var dx = (Math.random() - 0.5) * 8;
-var dy = (Math.random() - 0.5) * 8;
-
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -86,33 +79,30 @@ function Circle(x,y,dx,dy,r) {
     this.x += this.dx;
     this.y += this.dy;
 
+    this.draw();
     }
   }
 
+var circleArray = [];
 
+for (var i = 0; i <100, i++) {
+  var x = Math.random() * innerWidth;
+  var y = Math.random() * innerHeight;
+  var dx = (Math.random() - 0.5) * 8;
+  var dy = (Math.random() - 0.5) * 8;
+  var r = 30;
 
-var circle = new Circle(200,200,3,3,30);
+  circleArray.push(new Circle(x,y,dx,dy,r));
 
+}
 
 function  animate(){
   requestAnimationFrame(animate);
   c.clearRect(0,0,innerWidth,innerHeight);
-  circle.draw();
-  c.beginPath();
-  c.arc(x,y,r,0, Math.PI * 2, false);
-  c.strokeStyle = color[Math.floor(Math.random() * color.length)];
-  c.stroke();
 
-
-if (x + r > innerWidth || x - r < 0) {
-  dx = -dx;
-}
-
-if (y + r > innerHeight || y - r <0) {
-  dy = -dy;
-}
-x +=dx;
-y +=dy;
+  for (var i = 0; i < circleArray.length; i ++) {
+      circleArray|i|.update();
+  }
 
 }
 
