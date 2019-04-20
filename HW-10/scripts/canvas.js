@@ -1,4 +1,5 @@
 var canvas = document.querySelector('canvas');
+var color=['cyan','royalblue','darkred','darkorange','teal','sandybrown','deepskyblue'];
 var c = canvas.getContext('2d');
 var h = 100;
 var j = 100;
@@ -45,6 +46,6 @@ for (var i = 0; i < 10; i++){
   var y = Math.random() * window.innerHeight;
   c.beginPath();
   c.arc(x,y,30,0, Math.PI * 2, false);
-  c.strokeStyle = 'red';
+  c.strokeStyle = color[Math.floor(Math.random() * color.length)];
   c.stroke();
 }
