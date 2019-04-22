@@ -1,12 +1,16 @@
 window.onload = canfunc;
-window.onresize = canfunc;
+//window.onresize = canfunc;
 
-var canvas = document.querySelector('canvas');
-var c = canvas.getContext('2d');
+var canvas = document.getElementById('canvas'),
+    ctx = canvas.getContext('2d'),
+    squareX = 0;
+    squareY = 0;
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = 720;
+canvas.height = 480;
 
 function canfunc(){
+  ctx.fillStyle = 'NavajoWhite ';
+  ctx.fillRect(10,10,canvas.width-20,canvas.height-20);
   console.log('func');
 }
