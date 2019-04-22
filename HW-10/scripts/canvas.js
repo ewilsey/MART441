@@ -75,13 +75,15 @@ function Circle(x,y,dx,dy,r) {
   this.dx = dx;
   this.dy = dy;
   this.r = r;
+  this.minR = r;
+  this.color = color[Math.floor(Math.random() * color.length)];
 
   this.draw = function()  {
     c.beginPath();
     c.arc(this.x,this.y,this.r,0, Math.PI * 2, false);
-    c.strokeStyle = color[Math.floor(Math.random() * color.length)];
-    c.stroke();
-    c.fillStyle = color[Math.floor(Math.random() * color.length)];
+    c.strokeStyle = this.color;
+    //c.stroke();
+    c.fillStyle = this.color;
     c.fill();
   }
 
@@ -100,10 +102,10 @@ function Circle(x,y,dx,dy,r) {
     if (mouse.x - this.x < 50 && mouse.x - this.x > -50
     && mouse.y - this.y < 50 && mouse.y - this.y > -50) {
       if (this.r < maxR) {
-      this.r +=1;
+      this.r += 1;
       }
-    } else if (this.r > minR) {
-      this.r -=1;
+    } else if (this.r > this.minR) {
+      this.r -= 1;
     }
 
     this.draw();
@@ -111,8 +113,8 @@ function Circle(x,y,dx,dy,r) {
   }
 
 var circleArray = [];
-for (var i = 0; i < 100; i++) {
-  var r = minR;
+for (var i = 0; i < 3000; i++) {
+  var r = Math.random() * 3 + 1;
   var x = Math.random() * (innerWidth - r * 2) + r;
   var y = Math.random() * (innerHeight -r * 2) + r;
   var dx = (Math.random() - 0.5) * 3;
