@@ -14,8 +14,14 @@ player.color.b=0;
 
 
 var Update = setInterval(function() {
-
-
+  if (input.a)
+  player.x -= 5;
+  if (input.d)
+  player.x += 5;
+  if (input.w)
+  player.y -= 5;
+  if (input.s)
+  player.y += 5;
   if(player.x<0)
   player.x =0;
   if (player.y<0)
