@@ -66,6 +66,8 @@ function Circle(x,y,dx,dy,r) {
     c.arc(this.x,this.y,this.r,0, Math.PI * 2, false);
     c.strokeStyle = color[Math.floor(Math.random() * color.length)];
     c.stroke();
+    c.fillStyle = color[Math.floor(Math.random() * color.length)];
+    c.fill();
   }
 
   this.update = function()  {
@@ -84,12 +86,13 @@ function Circle(x,y,dx,dy,r) {
   }
 
 var circleArray = [];
-for (var i = 0; i < 2000; i++) {
-  var x = Math.random() * innerWidth;
-  var y = Math.random() * innerHeight;
-  var dx = (Math.random() - 0.5) * 8;
-  var dy = (Math.random() - 0.5) * 8;
+for (var i = 0; i < 200; i++) {
   var r = 30;
+  var x = Math.random() * (innerWidth - r * 2) + r;
+  var y = Math.random() * (innerHeight -r * 2) + r;
+  var dx = (Math.random() - 0.5)*3;
+  var dy = (Math.random() - 0.5)*3;
+
   circleArray.push(new Circle(x,y,dx,dy,r));
 }
 
