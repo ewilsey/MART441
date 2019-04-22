@@ -1,15 +1,11 @@
 ##HW 10
-#Process
-I followed "Chris Courses" tutorials HTML5 1-4, and
-Collision Detection 1-2 on YouTube for this
-assignment.  
-
-The HTML 5 Canvas tutorials helped me to create a canvas,
-give it height and width, create boundaries and ensure
-shapes could only move inside boundaries.
-
-The Collison Detection tutorials helped me to  
-
+#Parameters Check
+You have have at least 2 objects on your canvas. - YES
+One object is to be controlled by the user. YES via mouse.
+One object should move autonomously. YES, it all moves.
+The background should change if they collide. NO
+The objects should change size if they collide. NO, but objects change size via mouse.
+Objects cannot leave the canvas edges. YES. 
 
 
 

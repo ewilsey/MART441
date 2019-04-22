@@ -1,10 +1,10 @@
 body{
   margin: 0;
-
+  background-color: white;
+  color: black;
 }
 canvas{
-  border: black;
+  border: red;
   border-style: dashed;
   border-width: 2px;
-
 }
