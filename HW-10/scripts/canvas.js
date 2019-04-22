@@ -2,10 +2,10 @@ var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
 
 var color=['AntiqueWhite','Cornsilk','Coral','LightSalmon','Salmon','Orange','OrangeRed','DarkSalmon','DarkRed','MediumBlue', 'Navy','MidnightBlue'];
-var h = 100;
+var h = 10;
 var j = 100;
 var k = 200;
-var w = 100;
+var w = 10;
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -90,6 +90,10 @@ function Circle(x,y,dx,dy,r) {
     //c.stroke();
     c.fillStyle = this.color;
     c.fill();
+
+    c.fillStyle; this.color;
+    c.fillRect(this.x,this.y,w,h);
+
   }
 
   this.update = function()  {
