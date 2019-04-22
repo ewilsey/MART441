@@ -95,7 +95,7 @@ function Circle(x,y,dx,dy,r) {
 
     //interactivity
     if (mouse.x - this.x < 50 && mouse.x - this.x > -50) {
-      this.radius +=1;
+      this.r +=1;
     }
 
     this.draw();
