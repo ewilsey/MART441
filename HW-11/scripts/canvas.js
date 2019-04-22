@@ -1,5 +1,5 @@
 window.onload = canfunc;
-window.onresize = canfun;
+window.onresize = canfunc;
 
 var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
