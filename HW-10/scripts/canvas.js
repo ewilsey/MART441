@@ -59,6 +59,8 @@ var mouse = {
   y: undefined
 }
 
+var maxR = 40;
+
 window.addEventListener('mousemove', function(event){
   console.log(event);
   mouse.x = event.x;
@@ -94,8 +96,13 @@ function Circle(x,y,dx,dy,r) {
     this.y += this.dy;
 
     //interactivity
-    if (mouse.x - this.x < 50 && mouse.x - this.x > -50) {
+    if (mouse.x - this.x < 50 && mouse.x - this.x > -50
+    && mouse.y - this.y < 50 && mouse.y - this.y > -50) {
+      if (this.r < maxR) {
       this.r +=1;
+      }
+    } else if (this.r > 10) {
+      this.r -=1;
     }
 
     this.draw();
@@ -104,7 +111,7 @@ function Circle(x,y,dx,dy,r) {
 
 var circleArray = [];
 for (var i = 0; i < 100; i++) {
-  var r = 30;
+  var r = 10;
   var x = Math.random() * (innerWidth - r * 2) + r;
   var y = Math.random() * (innerHeight -r * 2) + r;
   var dx = (Math.random() - 0.5) * 3;
