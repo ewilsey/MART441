@@ -92,7 +92,7 @@ function Circle(x,y,dx,dy,r) {
     c.fill();
 
     c.fillStyle; this.color;
-    c.fillRect(this.x,this.y,w,h);
+    c.fillRect(this.x,this.y,this.r,this.r);
 
   }
 
