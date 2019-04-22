@@ -60,6 +60,7 @@ var mouse = {
 }
 
 var maxR = 40;
+var minR = 2;
 
 window.addEventListener('mousemove', function(event){
   console.log(event);
@@ -101,7 +102,7 @@ function Circle(x,y,dx,dy,r) {
       if (this.r < maxR) {
       this.r +=1;
       }
-    } else if (this.r > 10) {
+    } else if (this.r > minR) {
       this.r -=1;
     }
 
@@ -111,7 +112,7 @@ function Circle(x,y,dx,dy,r) {
 
 var circleArray = [];
 for (var i = 0; i < 100; i++) {
-  var r = 10;
+  var r = minR;
   var x = Math.random() * (innerWidth - r * 2) + r;
   var y = Math.random() * (innerHeight -r * 2) + r;
   var dx = (Math.random() - 0.5) * 3;
