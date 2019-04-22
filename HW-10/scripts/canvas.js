@@ -54,6 +54,16 @@ canvas.height = window.innerHeight;
 //c.strokeStyle = color[Math.floor(Math.random() * color.length)];
 //c.stroke();
 
+var mouse = {
+  x: undefined,
+  y: undefined
+}
+
+window.addEventListener('mousemove', function(event){
+  mouse.x = event.x;
+  mouse.y = event.y;
+});
+
 function Circle(x,y,dx,dy,r) {
   this.x = x;
   this.y = y;
@@ -81,17 +91,22 @@ function Circle(x,y,dx,dy,r) {
     this.x += this.dx;
     this.y += this.dy;
 
+    //interactivity
+    if (mouse.x - this.x < 50 && mouse.x - this.x > -50) {
+      this.radius +=1;
+    }
+
     this.draw();
     }
   }
 
 var circleArray = [];
-for (var i = 0; i < 200; i++) {
+for (var i = 0; i < 100; i++) {
   var r = 30;
   var x = Math.random() * (innerWidth - r * 2) + r;
   var y = Math.random() * (innerHeight -r * 2) + r;
-  var dx = (Math.random() - 0.5)*3;
-  var dy = (Math.random() - 0.5)*3;
+  var dx = (Math.random() - 0.5) * 3;
+  var dy = (Math.random() - 0.5) * 3;
 
   circleArray.push(new Circle(x,y,dx,dy,r));
 }
