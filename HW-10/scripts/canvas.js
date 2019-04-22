@@ -113,7 +113,7 @@ function Circle(x,y,dx,dy,r) {
   }
 
 var circleArray = [];
-for (var i = 0; i < 3000; i++) {
+for (var i = 0; i < 10; i++) {
   var r = Math.random() * 3 + 1;
   var x = Math.random() * (innerWidth - r * 2) + r;
   var y = Math.random() * (innerHeight -r * 2) + r;
