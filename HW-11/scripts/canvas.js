@@ -25,8 +25,37 @@ function initCanvas(){
       ctx.fillRect(enemies[i].x, enemies[i].y+=.5, enemies[i].w, enemies[i].h);
      }
   }
+  function Launcher(){
+    this.y = 280, this.x = cW*.5-25, this.w = 50, this.h = 50, this.dir, this.bg="Goldenrod", this.weapon = [];
+    this.render = function(){
+      if(this.dir == 'left'){
+        this.x-=5;
+      } else if (this.dir == 'right') {
+        this.x+=5;
+      }
+      ctx.fillStyle = this.bg;
+      ctx.fillRect(this.x,this.y,this.w,this.h);
+      for(var i =0, i <this.weapon.length;i++){
+        var weap = this.weapon[i];
+        ctx.fillStyle = weap.bg;
+        ctx.fillRect(weap.x,weap.y-=5,weap.w,weap.h);
+        this.hitDetect(this.weapon[i],i);
+        if(weap.y<=0){
+          this.weapon.splice(i,1);
+        }
+      }
+      if(enemies.length == 0){
+        clearInterval(animateInterval);
+        ctx.fillStyle = "Cyan";
+        ctx.fillText('Stage Complete', cW*.5-130,50,300);
+      }
+    }
+
+  };
+  //var tank = new Tank();
+
   function animate()  {
-    //ctx.clearRect(0,0,cW,cH);
+    ctx.clearRect(0,0,cW,cH);
     renderEnemies();
   }
   var animateInterval = setInterval(animate,  30);
@@ -34,19 +63,19 @@ function initCanvas(){
 window.addEventListener('load', function(event) {
   initCanvas();
 });
-canvas.width = 720;
+/*canvas.width = 720;
 canvas.height = 480;
 
   function canfunc(){
-  //ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.clearRect(0,0,canvas.width,canvas.height);
 
   ctx.fillStyle = 'NavajoWhite ';
   ctx.fillRect(0,0,canvas.width,canvas.height);
 
-  //ctx.fillStyle = squareColor;
-  //ctx.fillRect(squareX,squareY,squareWidth,squareHeight);
+  ctx.fillStyle = squareColor;
+  ctx.fillRect(squareX,squareY,squareWidth,squareHeight);
 
-  //console.log('func');
+  console.log('func');
 }
 
 var refresh = setInterval(canfunc, 1000/60);
@@ -71,4 +100,4 @@ var moving = setInterval(function(){
   }else {
     squareMovingY = "down";
   }
-}, 1000/60);
+}, 1000/60);*/
