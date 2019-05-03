@@ -1,11 +1,15 @@
-a{color: Aqua;}
-a1{color: Aquamarine;}
-a2{color: Cyan ;}
-a3{color: SaddleBrown;}
-a4{color: Chocolate;}
-a5{color: Peru;}
-a6{color: Blue;}
-a7{color: Darkblue;}
-a8{color: Darkcyan;}
-a9{color: RosyBrown;}
-a10{color: Tan;}
+Body{
+  background-color: Blue;
+}
+
+a{color: Black;}
+a1{color: DimGrey;}
+a2{color: SlateGrey;}
+a3{color: LightSlateGrey;}
+a4{color: Grey;}
+a5{color: Silver;}
+a6{color: LightSteelBlue;}
+a7{color: LightGrey;}
+a8{color: Gainsboro;}
+a9{color: AliceBlue;}
+a10{color: White;}
