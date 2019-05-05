@@ -86,7 +86,7 @@ h1{
 }
 
 .slide-in{
-  height: 820px;
+  height: 808px;
   width: 1660px;
   position: relative;
   overflow: hidden;
@@ -97,7 +97,7 @@ h1{
 
 .slide-in img{
   display: none;
-  height: 820px;
+  height: 808px;
   width: 1660px;
 }
 
