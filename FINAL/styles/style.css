@@ -80,7 +80,7 @@ h1{
 
 .container{
   width: 1920px;
-  margin: 92.5px, auto;
+  margin-left: 185px;
   overflow: auto;
 }
 
@@ -113,12 +113,12 @@ h1{
 
 .back{
   position: relative;
-  margin-right: -45px;
+  margin-right: -92.5px;
   z-index: 100;
 }
 
 .next{
   position: relative;
-  margin-left: -45px;
+  margin-left: -92.5px;
   z-index: 100;
 }
