@@ -2,25 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>WILSEY_FINAL</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
   </head>
   <body>
     <h1>
       <a>H</a><a1>e</a1><a2>l</a2><a3>l</a3><a4>o</a4>
       <a5>W</a5><a6>o</a6><a7>r</a7><a8>l</a8><a9>d</a9><a10>!</a10>
     </h1>
-    <div id="slider">
-      <figure>
-        <img src="images/Alien001.jpg" alt="Alpho">
-        <img src="images/Alien002.jpg" alt="Brava">
-        <img src="images/Alien003.jpg" alt="Charlu">
-        <img src="images/Alien004.jpg" alt="Delphi">
-        <img src="images/Alien005.jpg" alt="Echqua">
-      </figure>
+
+    <div class="container">
+      <div class="silde-out">
+        <button type="button" class="back" alt= "Back"><<</button>
+        <div class="slide-in">
+          <img src="images/Alien001.jpg" class="active" alt="Alphue">
+          <img src="images/Alien002.jpg" alt="Bravas">
+          <img src="images/Alien003.jpg" alt="Charleuse">
+          <img src="images/Alien004.jpg" alt="Delphine">
+          <img src="images/Alien005.jpg" alt="Echqua">
+        </div>
+        <button type="button" class="next" alt= "Next">>></button>
+      </div>
     </div>
+
     <canvas id="canvas"></canvas>
-    <script type="text/javascript" src="scripts/canvas.js"></script>
+
   </body>
 </html>

@@ -1,79 +1,67 @@
-Body{
-  background-color: Blue;
+body {
+  font-family: "Ariel", sans-serif;
+  font-size: 14px;
 }
-
-a{color: Black;}
-a1{color: DimGrey;}
-a2{color: SlateGrey;}
-a3{color: LightSlateGrey;}
-a4{color: Grey;}
-a5{color: Silver;}
-a6{color: LightSteelBlue;}
-a7{color: LightGrey;}
-a8{color: Gainsboro;}
-a9{color: AliceBlue;}
-a10{color: White;}
-
-@keyframes slider {
-
-0%  {
-  left: 0;
-
+h1{
+  text-align: center;
 }
-
-20% {
-  left: 0;
+a{
+  color: White;
+  background-color: Black;
+  margin: 1px;
 }
-
-25% {
-  left: -100%;
+a1{
+  color: AliceBlue;
+  background-color: DimGrey;
+  margin: 1px;
 }
-
-45% {
-  left: -100%;
+a2{
+  color: Gainsboro;
+  background-color: Grey;
+  margin: 1px;
 }
-
-50% {
-  left: -200%;
+a3{
+  color: LightGrey;
+  background-color: SlateGrey;
+  margin: 1px;
 }
-
-70% {
-  left: -200%;
+a4{
+  color: LightSteelBlue;
+  background-color: LightSlateGrey;
+  margin: 1px;
 }
-
-75% {
-  left: -300%;
+a5{
+  color: Silver;
+  background-color: LightSlateGrey;
+  margin: 1px;
 }
-
-95% {
-  left: -300%;
+a6{
+  color: LightSlateGrey;
+  background-color: LightSteelBlue;
+  margin: 1px;
 }
-
-100%  {
-  left: -400%;
+a7{
+  color: SlateGrey;
+  background-color: LightGrey;
+  margin: 1px;
 }
-
-#slider {
-  overflow: hidden;
+a8{
+  color: Grey;
+  background-color: Gainsboro;
+  margin: 1px;
 }
-
-#slider figure img {
-    width: 20%;
-    float: left;
+a9{
+  color: DimGrey;
+  background-color: AliceBlue;
+  margin: 1px;
 }
-
-#slider figure  {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 20s slider infinite;
-
+a10{
+  color: Black;
+  background-color: White;
+  margin: 1px;
 }
-
-
-
-
+.container{
+  width: auto;
+  margin:40px, auto;
+  overflow: auto;
 }
