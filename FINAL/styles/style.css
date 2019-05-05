@@ -79,14 +79,14 @@ h1{
 }
 
 .container{
-  width: 2160px;
+  width: 1920px;
   margin: 40px, auto;
   overflow: auto;
 }
 
 .slide-in{
-  height: 1080px;
-  width: 1920px;
+  height: 987.5px;
+  width: 1800px;
   position: relative;
   overflow: hidden;
   float:left;
@@ -96,8 +96,8 @@ h1{
 
 .slide-in img{
   display: none;
-  height: 1080px;
-  width: 1920px;
+  height: 987.5px;
+  width: 1800px;
 }
 
 .slide-in img.active{
