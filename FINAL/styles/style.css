@@ -3,78 +3,83 @@ body {
   font-size: 14px;
 }
 
-h1{
-  text-align: center;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-a{
+b{
   color: White;
   background-color: Black;
   margin: 1px;
 }
 
-a1{
+b1{
   color: AliceBlue;
   background-color: DimGrey;
   margin: 1px;
 }
 
-a2{
+b2{
   color: Gainsboro;
   background-color: Grey;
   margin: 1px;
 }
 
-a3{
+b3{
   color: LightGrey;
   background-color: SlateGrey;
   margin: 1px;
 }
 
-a4{
+b4{
   color: LightSteelBlue;
   background-color: LightSlateGrey;
   margin: 1px;
 }
 
-a5{
+b5{
   color: Silver;
   background-color: LightSlateGrey;
   margin: 1px;
 }
 
-a6{
+b6{
   color: LightSlateGrey;
   background-color: LightSteelBlue;
   margin: 1px;
 }
 
-a7{
+b7{
   color: SlateGrey;
   background-color: LightGrey;
   margin: 1px;
 }
 
-a8{
+b8{
   color: Grey;
   background-color: Gainsboro;
   margin: 1px;
 }
 
-a9{
+b9{
   color: DimGrey;
   background-color: AliceBlue;
   margin: 1px;
 }
 
-a10{
+b10{
   color: Black;
   background-color: White;
   margin: 1px;
 }
 
+h1{
+  text-align: center;
+}
+
 .container{
-  width: 1000px;
+  width: 1920px;
   margin: 40px, auto;
   overflow: auto;
 }
@@ -103,6 +108,7 @@ a10{
   float: left;
   margin-top: 130px;
   cursor:pointer;
+  border:#666 solid 1px;
 }
 
 .back{
