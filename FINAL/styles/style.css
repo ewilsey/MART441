@@ -75,7 +75,8 @@ b10{
 }
 
 h1{
-  text-align: center;
+  position: relative;
+  margin-left: 750px;
 }
 
 .container{
