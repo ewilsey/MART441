@@ -2,66 +2,117 @@ body {
   font-family: "Ariel", sans-serif;
   font-size: 14px;
 }
+
 h1{
   text-align: center;
 }
+
 a{
   color: White;
   background-color: Black;
   margin: 1px;
 }
+
 a1{
   color: AliceBlue;
   background-color: DimGrey;
   margin: 1px;
 }
+
 a2{
   color: Gainsboro;
   background-color: Grey;
   margin: 1px;
 }
+
 a3{
   color: LightGrey;
   background-color: SlateGrey;
   margin: 1px;
 }
+
 a4{
   color: LightSteelBlue;
   background-color: LightSlateGrey;
   margin: 1px;
 }
+
 a5{
   color: Silver;
   background-color: LightSlateGrey;
   margin: 1px;
 }
+
 a6{
   color: LightSlateGrey;
   background-color: LightSteelBlue;
   margin: 1px;
 }
+
 a7{
   color: SlateGrey;
   background-color: LightGrey;
   margin: 1px;
 }
+
 a8{
   color: Grey;
   background-color: Gainsboro;
   margin: 1px;
 }
+
 a9{
   color: DimGrey;
   background-color: AliceBlue;
   margin: 1px;
 }
+
 a10{
   color: Black;
   background-color: White;
   margin: 1px;
 }
+
 .container{
-  width: auto;
-  margin:40px, auto;
+  width: 1000px;
+  margin: 40px, auto;
   overflow: auto;
+}
+
+.slide-in{
+  height: 540px;
+  width: 960px;
+  position: relative;
+  overflow: hidden;
+  float:left;
+  padding:3px;
+  border:#666 solid 1px;
+}
+
+.slide-in img{
+  display: none;
+  height: 540px;
+  width: 960px;
+}
+
+.slide-in img.active{
+  display: inline-block;
+}
+
+.back,.next{
+  float: left;
+  margin-top: 130px;
+  cursor:pointer;
+}
+
+.back{
+  position: relative;
+  margin-right: -45px;
+  z-index: 100;
+}
+
+.next{
+  position: relative;
+  margin-left: -45px;
+  z-index: 100;
 }
