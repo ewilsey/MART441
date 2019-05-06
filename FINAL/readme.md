@@ -13,14 +13,12 @@ the images when the buttons were clicked.
 img and vice versa.
 
 #Take Away
-I originally wanted to animate a single photo and it would have been the same
-amount of coding, the buttons would "animate" the photo similar to a stop motion
-animation. As of now, the images are of different aliens so I wouldn't personally
-call this a stop-motion animation yet.
+I originally wanted the animation to happen automatically; as of now, the animation
+is semi-automatic. 
 
 #Potential Changes
 In the future I would like the images to change automatically with one-press of
-a button or have the animation begin on load. 
+a button or have the animation begin on load.
 
 ##LIVE SITE
 #Live Site:
