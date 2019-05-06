@@ -11,9 +11,10 @@ margin on either side.
 the images when the buttons were clicked.
 -I used jquery to loop the button function so that the end img would cycle to the first
 img and vice versa.
+-I changed "Hello World!" to "Ahh, I'm naked!" to match animation.
 
 #Take Away
-I originally wanted the animation to happen automatically; as of now, the animation
+I originally wanted the animation to happen automatically; as of now the animation
 is semi-automatic.
 
 #Potential Changes
