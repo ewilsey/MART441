@@ -12,66 +12,77 @@ b{
   color: White;
   background-color: Black;
   margin: 1px;
+  border: White solid 2px;
 }
 
 b1{
   color: AliceBlue;
   background-color: DimGrey;
   margin: 1px;
+  border: AliceBlue solid 2px;
 }
 
 b2{
   color: Gainsboro;
   background-color: Grey;
   margin: 1px;
+  border: Gainsboro solid 2px;
 }
 
 b3{
   color: LightGrey;
   background-color: SlateGrey;
   margin: 1px;
+  border: LightGrey solid 2px;
 }
 
 b4{
   color: LightSteelBlue;
   background-color: LightSlateGrey;
   margin: 1px;
+  border: LightSteelBlue solid 2px;
 }
 
 b5{
   color: Silver;
   background-color: LightSlateGrey;
   margin: 1px;
+  border: Silver  solid 2px;
 }
 
 b6{
   color: LightSlateGrey;
   background-color: LightSteelBlue;
   margin: 1px;
+  border: LightSlateGrey solid 2px;
 }
 
 b7{
   color: SlateGrey;
   background-color: LightGrey;
   margin: 1px;
+  border: SlateGrey solid 2px;
 }
 
 b8{
   color: Grey;
   background-color: Gainsboro;
   margin: 1px;
+  border: Grey solid 2px;
 }
 
 b9{
   color: DimGrey;
   background-color: AliceBlue;
   margin: 1px;
+  border: DimGrey solid 2px;
 }
 
 b10{
   color: Black;
   background-color: White;
   margin: 1px;
+  border: Black solid 2px;
 }
 
 h1{
