@@ -14,7 +14,7 @@ img and vice versa.
 
 #Take Away
 I originally wanted the animation to happen automatically; as of now, the animation
-is semi-automatic. 
+is semi-automatic.
 
 #Potential Changes
 In the future I would like the images to change automatically with one-press of
