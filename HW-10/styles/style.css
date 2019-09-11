@@ -1,10 +1,6 @@
-body{
-  margin: 0;
-  background-color: black;
-  color: white;
-}
-canvas{
-  border: red;
-  border-style: ridge;
-  border-width: 2px;
-}
+#myCanvas{
+            border:black;
+            border-style: solid;
+            border-width: 2px;
+
+        }
